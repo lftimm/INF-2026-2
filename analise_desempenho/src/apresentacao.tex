@@ -1,0 +1,157 @@
+\documentclass[t]{beamer}
+\usepackage{graphicx}
+\usepackage[brazil]{babel}
+
+\title{Análise de Desempenho: CFD em CUDA Fortran}
+\author{Lucas Timm}
+\date{31/08/2026}
+\begin{document}
+
+\maketitle
+
+\newcommand{\inframe}[2]{
+    \begin{frame}{#1}
+        #2
+    \end{frame}
+}
+
+\newcommand{\intwocols}[2]{
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            #1
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            #2
+        \end{column}
+    \end{columns}
+}
+
+
+\newcommand{\ttwocframe}[3]{
+    \inframe{#1}{\intwocols{#2}{#3}}
+}
+
+\newcommand{\twocframe}[2]{
+    \inframe{}{#1}{#2}
+}
+
+% Introdução CFD
+\ttwocframe 
+{Intro CFD}
+{
+    Computational Fluid Dynamics (CFD)  é o campo da mecânica computacional responsável por simular o comportamento de fluidos. Nesta campo de estudo as equações de Navier-Stokes, Equilíbrio de Massa e Momento, são discretizadas espacialmente por métodos numéricos como: Diferenças Finitas, Volumes Finitos, Elementos Finitos. Enquanto à discretização temporal são utilizados esquemas implícitos ou explícitos de marcha no tempo.
+}
+{
+    As simulações de fluidos são conhecidas por necessitarem de malhas extremamente refinadas para a captura dos fenômenos com um grau de precisão adequado, visando um resultado útil. Para o trabalho atual será analisado um programa desenvolvido no PPGEC, Programa de Pós Graduação em Engenharia Civil, para aplicações na Engenharia do Vento Computacional (CWE). 
+}
+
+\ttwocframe
+{Intro CFD}
+{
+    Por uma noção de ordem de grandeza, cada elemento hexaédrico corresponde a um sistema linear de 24 equações, podemos esperar que para um problema da vida real com 100.000 elementos, teríamos pelo menos 2.400.00 equações a serem resolvidas. E 100.000 elementos não é um número considerado muito grande, em um caso onde não há modelagem de turbulência (o que temos nesse caso), poderia ser até inviável resolver problemas reais com muita turbulência, devido a demanda computacional.
+}
+{
+    Assim, as placas de vídeo se tornaram essenciais para melhorar o desempenho dos problemas de CWE, e CFD como um todo, devido ao declíneo relativo da capacidade de processamento de um core apenas, comparado com o ambiente massivamente paralelo da GPU. Neste trabalho será analisada a performance do programa, identificando o bottleneck específico, e aplicando alguma técnica de otimização.
+}
+
+\inframe
+{Exemplos}
+{
+    \begin{figure}
+        \centering
+        \includegraphics[width = 1\textwidth]{./assets/pccfd.png}
+        \caption{Simulação de CFD em um gabinete}
+    \end{figure}
+}
+
+\inframe
+{Exemplos}
+{
+    \begin{figure}
+        \centering
+        \centering
+        \includegraphics[width = 1\textwidth]{./assets/planecfd.png}
+        \caption{Simulação de CFD em um um avião}
+    \end{figure}
+}
+
+\inframe
+{Exemplos}
+{
+    \begin{figure}
+        \centering
+        \includegraphics[width = 1\textwidth]{./assets/cfdbuilding.jpg}
+        \caption{Simulação de CFD de Estruturas}
+    \end{figure}
+}
+
+\ttwocframe
+{O Código}
+{
+     \begin{itemize}
+        \item Desenvolvido por pós-graduandos da Engenharia Civil
+        \item Elementos Finitos Hexaédricos Lineares
+        \item Modelo Dinâmico de Turbulência
+        \item CUDA Fortran
+     \end{itemize}
+}
+{
+     Está sendo utilizado atualmente no meu Trabalho de Conclusão de Curso na Engenharia Civil. 
+     Em conversa com o doutorando que trabalhou no código, houve relatos que aumentar o número de thread por blocos não melhora a performance.
+     Isso me faz pensar que o código pode ser memory-bound ou apenas não foi encontrado o número de threads otimizado.
+}
+
+\ttwocframe
+{Metodologia}
+{
+    Criar uma malha de benchmark simples, idealmente com turbulência para ser um representativo de uma carga típica do código.
+    Utilizar o ferramentário do CUDA Nvidia, o Nsight Compute, para analisar tempo de execução (por passo e total) kernel a kernel.
+
+    Entender:
+    \begin{itemize}
+        \item Throughput
+        \item Ocupância
+        \item Tempo de Execução Total 
+        \item Tempo de Execução por Passo de Tempo
+    \end{itemize}
+
+}
+{
+    Após identificado um gargalo, otimizar e fazer as medições novamente.
+
+    \begin{figure}
+        \centering
+        \centering
+        \includegraphics[width = 1\textwidth]{./assets/cavidade.png}
+        \caption{Uma malha possível para análise.}
+    \end{figure}
+}
+
+\ttwocframe{Metodologia}
+{
+A primeira etapa é provar ou desprovar a premissa que a performance é similar entre passos de tempo. Ou seja, se o bottleneck em um passo for o kernel 5, o kernel 5 sempre é o benchmark independente do passo de tempo analisado. Pode-se fazer isso registrando o tempo de execução de cada kernel por passo.
+
+Identificado o kernel problemático, ele será extraído e testado com diversos números de threads diferentes para provar ou desprovar que isto afeta o desempenho.
+}
+{
+Se for identificado algum outro problema no kernel, como os padrões de acesso à memória compartilhada e global da GPU, o livro, \textit{Programming Massively Parallel Processors}, traz uma tabela de checklist com algumas otimizações. Esta será a primeira fonte para as otimizações possíveis. O código será rodado no PCAD, assegurando o controle do ambiente de execução com o guix e slurm. Makefiles serão utilizados para garantir o workflow dos experimentos. 
+}
+
+\twocframe
+{
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\textwidth]{./assets/pmpp.png}
+        \caption{Principal referência para otimizações.}
+    \end{figure}
+}
+{
+    \begin{figure}
+        \centering
+        \centering
+        \includegraphics[width=0.55\textwidth]{./assets/otimizacoes.png}
+        \caption{Tabela de checklist de otimizações.}
+    \end{figure}
+}
+
+\end{document}
