@@ -1,13 +1,5 @@
 #!/usr/bin/bash
 
-#SBATCH --job-name=ncorpo_prog_paralela
-#SBATCH --partition=draco
-#SBATCH --nodes=1
-#SBATCH --ntasks=16
-#SBATCH --time=15:00:00
-#SBATCH --output=%x_%j.out
-#SBATCH --error=%x_%j.err
-
 set -e 
 
 if [ $# -lt 2 ]; then
@@ -19,7 +11,7 @@ run_experiment() {
   echo "[running] running serial experiment..."
   $1 -s $2 >> results.csv
 
-  for t in $(seq 2 2 $MAX_CORES)
+  for t in $(seq 2 2 )
   do
     export OMP_NUM_THREADS=$t
     echo "[running] using $OMP_NUM_THREADS threads"
@@ -30,7 +22,11 @@ run_experiment() {
 
 touch results.csv
 MAX_CORES=$(LC_ALL=C lscpu | grep 'Core' | awk '{print $4}')
-echo "[info] machine with max $MAX_CORES cores per socket"
+THREADS_CORE=$(LC_ALL=C lscpu | grep 'Thread' | awk '{print $4}')
+MAX_THREADS=$((($MAX_CORES*$THREADS_CORE)))
+echo "[info] machine has $MAX_CORES cores per socket"
+echo "[info] machine has $THREADS_CORE threads per core"
+echo "[info] machine with a max of $MAX_THREADS threads"
 
 curr=0
 total=$(($#-1))
