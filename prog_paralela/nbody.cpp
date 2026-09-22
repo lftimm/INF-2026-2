@@ -3,9 +3,7 @@
 #include <fstream>
 #include <functional>
 #include <iostream>
-#include <print>
 #include <sstream>
-#include <stdexcept>
 #include <string>
 #include <vector>
 
@@ -189,16 +187,6 @@ inline void serial_simulation(Universe &universe, float dt) {
   }
 }
 
-void write_to_file(const Universe &universe, std::string_view file) {
-  std::ofstream fs{file.data()};
-
-  for (int i = 0; i < universe.size; i++) {
-    fs << universe.x[i] << ";" << universe.y[i] << ";" << universe.z[i] << "\n";
-  }
-
-  fs.close();
-}
-
 double run_simulation(Universe &universe, float dt,
                       std::function<void(Universe &, float)> sim) {
   double t0{omp_get_wtime()};
@@ -217,24 +205,28 @@ int main(int argc, char **argv) {
   const float simulation_time{1.0f};
   const int total_steps = 1 / dt;
 
-  if (argc < 3)
-    throw std::runtime_error("usage: [program] -p or -s initial_state.csv");
+  if (argc != 3) {
+    std::cerr << "usage: [program] -p or -s initial_state.csv\n";
+    return 1;
+  }
 
   bool execute_serial{!std::strcmp(argv[1], "-s")};
   Universe universe{create_universe(argv[2])};
 
   std::function<void(Universe &, float)> sim{
-      execute_serial ? serial_simulation : parallel_simulation};
+      execute_serial ? serial_simulation : parallel_simulation
+  };
 
   double elapsed_time{run_simulation(universe, dt, sim)};
 
   std::string marker = execute_serial ? "S" : "P";
   int num_threads = execute_serial ? 1 : omp_get_max_threads();
 
-  std::println("{};{};{};{}", marker, universe.size, num_threads, elapsed_time);
-
-  if (argc == 4)
-    write_to_file(universe, argv[3]);
+  std::cout 
+    << marker << ";" 
+    << universe.size << ";"
+    << num_threads << ";"
+    << elapsed_time << "\n";
 
   return 0;
 }

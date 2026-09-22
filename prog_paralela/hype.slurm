@@ -3,10 +3,9 @@
 #SBATCH --job-name=ncorpo
 #SBATCH --partition=hype
 #SBATCH --nodes=1
-#SBATCH --time=10:00:00
+#SBATCH --time=15:00:00
 #SBATCH --output=%x_%j.out
 #SBATCH --error=%x_%j.err
 
-rm results.csv
-make
-./run_experiment ./nbody universes/*
+rm -f results.csv
+./run_experiment.sh ./nbody universes/*

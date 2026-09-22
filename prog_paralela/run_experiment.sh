@@ -7,11 +7,17 @@ if [ $# -lt 2 ]; then
     exit 1
 fi
 
+CORES_PER_SOCKET=$(LC_ALL=C lscpu | grep -i 'Core(s) per socket' | awk '{print $4}')
+SOCKETS=$(LC_ALL=C lscpu | grep -i 'Socket(s):' | awk '{print $2}')
+THREADS_PER_CORE=$(LC_ALL=C lscpu | grep -i 'Thread(s) per core' | awk '{print $4}')
+MAX_CORES=$((CORES_PER_SOCKET * SOCKETS))
+MAX_THREADS=$((MAX_CORES * THREADS_PER_CORE))  
+
 run_experiment() {
   echo "[running] running serial experiment..."
   $1 -s $2 >> results.csv
 
-  for t in $(seq 2 2 )
+  for t in $(seq 2 2 $MAX_THREADS)
   do
     export OMP_NUM_THREADS=$t
     echo "[running] using $OMP_NUM_THREADS threads"
@@ -21,9 +27,7 @@ run_experiment() {
 }
 
 touch results.csv
-MAX_CORES=$(LC_ALL=C lscpu | grep 'Core' | awk '{print $4}')
-THREADS_CORE=$(LC_ALL=C lscpu | grep 'Thread' | awk '{print $4}')
-MAX_THREADS=$((($MAX_CORES*$THREADS_CORE)))
+
 echo "[info] machine has $MAX_CORES cores per socket"
 echo "[info] machine has $THREADS_CORE threads per core"
 echo "[info] machine with a max of $MAX_THREADS threads"
