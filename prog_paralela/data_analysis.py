@@ -33,7 +33,7 @@ def main():
 
     fig, ax = plt.subplots()
     heatmap_data = df.pivot(index="Threads", columns="Size", values="Speedup")
-    sns.heatmap(heatmap_data,cmap="plasma")
+    sns.heatmap(heatmap_data,cmap="plasma",annot=true)
     fig.savefig("heatmap_speedup.png")
 
     del fig, ax
