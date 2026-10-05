@@ -1,4 +1,6 @@
 \babel@toc {brazil}{}\relax 
 \beamer@sectionintoc {1}{Detalhes}{2}{0}{1}
-\beamer@sectionintoc {2}{Metodologia}{4}{0}{2}
-\beamer@sectionintoc {3}{Resultados}{6}{0}{3}
+\beamer@sectionintoc {2}{Metodologia}{5}{0}{2}
+\beamer@sectionintoc {3}{Resultados}{7}{0}{3}
+\beamer@sectionintoc {4}{Análise De Resultados}{11}{0}{4}
+\beamer@sectionintoc {5}{Finalização}{24}{0}{5}

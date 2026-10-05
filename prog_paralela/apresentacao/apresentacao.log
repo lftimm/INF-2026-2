@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/nixos.org) (preloaded format=pdflatex 1980.1.1)  28 SEP 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/nixos.org) (preloaded format=pdflatex 1980.1.1)  28 SEP 2026 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,6 +860,91 @@ exmfdist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks46
 \inpenc@posthook=\toks47
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/animate/animate.sty
+Package: animate 2024/10/14 PDF & SVG animations from files and inline graphics
+
+
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count360
+\calc@Bcount=\count361
+\calc@Adimen=\dimen303
+\calc@Bdimen=\dimen304
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count362
+\calc@Cskip=\skip69
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2024/09/16 v0.59 driver independent access to low-level PDF fe
+atures
+
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count363
+)
+\g_pbs_page_int=\count364
+\g_pbs_oc_int=\count365
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/zref/zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count366
+Package zref Info: New property: abspage on input line 67.
+)
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2024/09/15 v0.24 support package for ocgx2.sty
+)
+\@anim@box=\box78
+\@anim@measbox=\box79
+\@anim@tmpdima=\dimen305
+\@anim@tmpdimb=\dimen306
+\@anim@num=\count367
+\@anim@curframe=\count368
+\@anim@curframe@zb=\count369
+\@anim@resizeflags=\count370
+\@anim@skipfram=\count371
+\@anim@mulframecnt=\count372
+\@anim@@tmlnfile=\read4
+\@anim@tmpcnt=\count373
+\c@@anim@ltxcnt=\count374
+\@anim@curlayer=\count375
+\@anim@lineno=\count376
+\@anim@curfield=\count377
+\@anim@@resizeflags=\count378
 ) (./beamerthemeInf.sty
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/pgf/basiclayer/pgf.sty
@@ -868,7 +953,7 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box78
+\pgfnodeparttextbox=\box80
 )
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
@@ -877,8 +962,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen303
-\pgf@nodesepend=\dimen304
+\pgf@nodesepstart=\dimen307
+\pgf@nodesepend=\dimen308
 )
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
@@ -890,24 +975,20 @@ Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
-exmfdist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/microtype/microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 \MT@toks=\toks48
-\MT@tempbox=\box79
-\MT@count=\count360
+\MT@tempbox=\box81
+\MT@count=\count379
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks49
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen305
+\MT@outer@kern=\dimen309
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count361
+\MT@listname@count=\count380
 
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/microtype/microtype-pdftex.def
@@ -915,7 +996,7 @@ File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip67
+\MT@outer@space=\skip70
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -928,22 +1009,7 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-
-(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
-exmfdist/tex/latex/tools/calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count362
-\calc@Bcount=\count363
-\calc@Adimen=\dimen306
-\calc@Bdimen=\dimen307
-\calc@Askip=\skip68
-\calc@Bskip=\skip69
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count364
-\calc@Cskip=\skip70
-)
-\c@ifsymcnt=\count365
+\c@ifsymcnt=\count381
 )
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/lm/lmodern.sty
@@ -1000,14 +1066,9 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
-exmfdist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count366
 ) (./apresentacao.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 8.
+(babel)             Reported on input line 12.
 )
 \openout1 = `apresentacao.aux'.
 
@@ -1068,16 +1129,16 @@ LaTeX Font Info:    ... okay on input line 49.
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
 exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count367
-\scratchdimen=\dimen308
-\scratchbox=\box80
-\nofMPsegments=\count368
-\nofMParguments=\count369
+\scratchcounter=\count382
+\scratchdimen=\dimen310
+\scratchbox=\box82
+\nofMPsegments=\count383
+\nofMParguments=\count384
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count370
-\MPscratchDim=\dimen309
-\MPnumerator=\count371
-\makeMPintoPDFobject=\count372
+\MPscratchCnt=\count385
+\MPscratchDim=\dimen311
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
 \everyMPtoPDFconversion=\toks51
 )
 (/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
@@ -1237,12 +1298,12 @@ Package microtype Warning: tracking amount list `apresentacao.tex/51' will
 (microtype)                override list `apresentacao.tex/49' for 
 (microtype)                font `OT1////' on input line 51.
 
-<inf-logo-dark.pdf, id=25, 701.84395pt x 389.02475pt>
+<inf-logo-dark.pdf, id=33, 701.84395pt x 389.02475pt>
 File: inf-logo-dark.pdf Graphic file (type pdf)
 <use inf-logo-dark.pdf>
 Package pdftex.def Info: inf-logo-dark.pdf  used on input line 51.
 (pdftex.def)             Requested size: 136.5746pt x 75.70221pt.
-<EE-White.png, id=26, 2007.5pt x 2007.5pt>
+<EE-White.png, id=34, 2007.5pt x 2007.5pt>
 File: EE-White.png Graphic file (type png)
 <use EE-White.png>
 Package pdftex.def Info: EE-White.png  used on input line 51.
@@ -1267,36 +1328,1673 @@ Package microtype Warning: tracking amount list `apresentacao.tex/55' will
 (microtype)                override list `apresentacao.tex/51' for 
 (microtype)                font `OT1////' on input line 55.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-69.
-
-(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
-exmfdist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 69.
+(Font)              <10.95> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 69.
-
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 69--69
+(Font)              <6> on input line 67.
+<nbody-0.png, id=51, 718.685pt x 718.685pt>
+File: nbody-0.png Graphic file (type png)
+<use nbody-0.png>
+Package pdftex.def Info: nbody-0.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-0.png> <a0,fr0>
+<nbody-1.png, id=55, 718.685pt x 718.685pt>
+File: nbody-1.png Graphic file (type png)
+<use nbody-1.png>
+Package pdftex.def Info: nbody-1.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-1.png> <a0,fr1>
+<nbody-2.png, id=59, 718.685pt x 718.685pt>
+File: nbody-2.png Graphic file (type png)
+<use nbody-2.png>
+Package pdftex.def Info: nbody-2.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-2.png> <a0,fr2>
+<nbody-3.png, id=63, 718.685pt x 718.685pt>
+File: nbody-3.png Graphic file (type png)
+<use nbody-3.png>
+Package pdftex.def Info: nbody-3.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-3.png> <a0,fr3>
+<nbody-4.png, id=67, 718.685pt x 718.685pt>
+File: nbody-4.png Graphic file (type png)
+<use nbody-4.png>
+Package pdftex.def Info: nbody-4.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-4.png> <a0,fr4>
+<nbody-5.png, id=71, 718.685pt x 718.685pt>
+File: nbody-5.png Graphic file (type png)
+<use nbody-5.png>
+Package pdftex.def Info: nbody-5.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-5.png> <a0,fr5>
+<nbody-6.png, id=75, 718.685pt x 718.685pt>
+File: nbody-6.png Graphic file (type png)
+<use nbody-6.png>
+Package pdftex.def Info: nbody-6.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-6.png> <a0,fr6>
+<nbody-7.png, id=79, 718.685pt x 718.685pt>
+File: nbody-7.png Graphic file (type png)
+<use nbody-7.png>
+Package pdftex.def Info: nbody-7.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-7.png> <a0,fr7>
+<nbody-8.png, id=83, 718.685pt x 718.685pt>
+File: nbody-8.png Graphic file (type png)
+<use nbody-8.png>
+Package pdftex.def Info: nbody-8.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-8.png> <a0,fr8>
+<nbody-9.png, id=87, 718.685pt x 718.685pt>
+File: nbody-9.png Graphic file (type png)
+<use nbody-9.png>
+Package pdftex.def Info: nbody-9.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-9.png> <a0,fr9>
+<nbody-10.png, id=91, 718.685pt x 718.685pt>
+File: nbody-10.png Graphic file (type png)
+<use nbody-10.png>
+Package pdftex.def Info: nbody-10.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-10.png> <a0,fr10>
+<nbody-11.png, id=95, 718.685pt x 718.685pt>
+File: nbody-11.png Graphic file (type png)
+<use nbody-11.png>
+Package pdftex.def Info: nbody-11.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-11.png> <a0,fr11>
+<nbody-12.png, id=99, 718.685pt x 718.685pt>
+File: nbody-12.png Graphic file (type png)
+<use nbody-12.png>
+Package pdftex.def Info: nbody-12.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-12.png> <a0,fr12>
+<nbody-13.png, id=103, 718.685pt x 718.685pt>
+File: nbody-13.png Graphic file (type png)
+<use nbody-13.png>
+Package pdftex.def Info: nbody-13.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-13.png> <a0,fr13>
+<nbody-14.png, id=107, 718.685pt x 718.685pt>
+File: nbody-14.png Graphic file (type png)
+<use nbody-14.png>
+Package pdftex.def Info: nbody-14.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-14.png> <a0,fr14>
+<nbody-15.png, id=111, 718.685pt x 718.685pt>
+File: nbody-15.png Graphic file (type png)
+<use nbody-15.png>
+Package pdftex.def Info: nbody-15.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-15.png> <a0,fr15>
+<nbody-16.png, id=115, 718.685pt x 718.685pt>
+File: nbody-16.png Graphic file (type png)
+<use nbody-16.png>
+Package pdftex.def Info: nbody-16.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-16.png> <a0,fr16>
+<nbody-17.png, id=119, 718.685pt x 718.685pt>
+File: nbody-17.png Graphic file (type png)
+<use nbody-17.png>
+Package pdftex.def Info: nbody-17.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-17.png> <a0,fr17>
+<nbody-18.png, id=123, 718.685pt x 718.685pt>
+File: nbody-18.png Graphic file (type png)
+<use nbody-18.png>
+Package pdftex.def Info: nbody-18.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-18.png> <a0,fr18>
+<nbody-19.png, id=127, 718.685pt x 718.685pt>
+File: nbody-19.png Graphic file (type png)
+<use nbody-19.png>
+Package pdftex.def Info: nbody-19.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-19.png> <a0,fr19>
+<nbody-20.png, id=131, 718.685pt x 718.685pt>
+File: nbody-20.png Graphic file (type png)
+<use nbody-20.png>
+Package pdftex.def Info: nbody-20.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-20.png> <a0,fr20>
+<nbody-21.png, id=135, 718.685pt x 718.685pt>
+File: nbody-21.png Graphic file (type png)
+<use nbody-21.png>
+Package pdftex.def Info: nbody-21.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-21.png> <a0,fr21>
+<nbody-22.png, id=139, 718.685pt x 718.685pt>
+File: nbody-22.png Graphic file (type png)
+<use nbody-22.png>
+Package pdftex.def Info: nbody-22.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-22.png> <a0,fr22>
+<nbody-23.png, id=143, 718.685pt x 718.685pt>
+File: nbody-23.png Graphic file (type png)
+<use nbody-23.png>
+Package pdftex.def Info: nbody-23.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-23.png> <a0,fr23>
+<nbody-24.png, id=147, 718.685pt x 718.685pt>
+File: nbody-24.png Graphic file (type png)
+<use nbody-24.png>
+Package pdftex.def Info: nbody-24.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-24.png> <a0,fr24>
+<nbody-25.png, id=151, 718.685pt x 718.685pt>
+File: nbody-25.png Graphic file (type png)
+<use nbody-25.png>
+Package pdftex.def Info: nbody-25.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-25.png> <a0,fr25>
+<nbody-26.png, id=155, 718.685pt x 718.685pt>
+File: nbody-26.png Graphic file (type png)
+<use nbody-26.png>
+Package pdftex.def Info: nbody-26.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-26.png> <a0,fr26>
+<nbody-27.png, id=159, 718.685pt x 718.685pt>
+File: nbody-27.png Graphic file (type png)
+<use nbody-27.png>
+Package pdftex.def Info: nbody-27.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-27.png> <a0,fr27>
+<nbody-28.png, id=163, 718.685pt x 718.685pt>
+File: nbody-28.png Graphic file (type png)
+<use nbody-28.png>
+Package pdftex.def Info: nbody-28.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-28.png> <a0,fr28>
+<nbody-29.png, id=167, 718.685pt x 718.685pt>
+File: nbody-29.png Graphic file (type png)
+<use nbody-29.png>
+Package pdftex.def Info: nbody-29.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-29.png>
+<a0,fr29>
+<nbody-30.png, id=171, 718.685pt x 718.685pt>
+File: nbody-30.png Graphic file (type png)
+<use nbody-30.png>
+Package pdftex.def Info: nbody-30.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-30.png> <a0,fr30>
+<nbody-31.png, id=175, 718.685pt x 718.685pt>
+File: nbody-31.png Graphic file (type png)
+<use nbody-31.png>
+Package pdftex.def Info: nbody-31.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-31.png> <a0,fr31>
+<nbody-32.png, id=179, 718.685pt x 718.685pt>
+File: nbody-32.png Graphic file (type png)
+<use nbody-32.png>
+Package pdftex.def Info: nbody-32.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-32.png> <a0,fr32>
+<nbody-33.png, id=183, 718.685pt x 718.685pt>
+File: nbody-33.png Graphic file (type png)
+<use nbody-33.png>
+Package pdftex.def Info: nbody-33.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-33.png> <a0,fr33>
+<nbody-34.png, id=187, 718.685pt x 718.685pt>
+File: nbody-34.png Graphic file (type png)
+<use nbody-34.png>
+Package pdftex.def Info: nbody-34.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-34.png> <a0,fr34>
+<nbody-35.png, id=191, 718.685pt x 718.685pt>
+File: nbody-35.png Graphic file (type png)
+<use nbody-35.png>
+Package pdftex.def Info: nbody-35.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-35.png> <a0,fr35>
+<nbody-36.png, id=195, 718.685pt x 718.685pt>
+File: nbody-36.png Graphic file (type png)
+<use nbody-36.png>
+Package pdftex.def Info: nbody-36.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-36.png> <a0,fr36>
+<nbody-37.png, id=199, 718.685pt x 718.685pt>
+File: nbody-37.png Graphic file (type png)
+<use nbody-37.png>
+Package pdftex.def Info: nbody-37.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-37.png> <a0,fr37>
+<nbody-38.png, id=203, 718.685pt x 718.685pt>
+File: nbody-38.png Graphic file (type png)
+<use nbody-38.png>
+Package pdftex.def Info: nbody-38.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-38.png> <a0,fr38>
+<nbody-39.png, id=207, 718.685pt x 718.685pt>
+File: nbody-39.png Graphic file (type png)
+<use nbody-39.png>
+Package pdftex.def Info: nbody-39.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-39.png> <a0,fr39>
+<nbody-40.png, id=211, 718.685pt x 718.685pt>
+File: nbody-40.png Graphic file (type png)
+<use nbody-40.png>
+Package pdftex.def Info: nbody-40.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-40.png> <a0,fr40>
+<nbody-41.png, id=215, 718.685pt x 718.685pt>
+File: nbody-41.png Graphic file (type png)
+<use nbody-41.png>
+Package pdftex.def Info: nbody-41.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-41.png> <a0,fr41>
+<nbody-42.png, id=219, 718.685pt x 718.685pt>
+File: nbody-42.png Graphic file (type png)
+<use nbody-42.png>
+Package pdftex.def Info: nbody-42.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-42.png> <a0,fr42>
+<nbody-43.png, id=223, 718.685pt x 718.685pt>
+File: nbody-43.png Graphic file (type png)
+<use nbody-43.png>
+Package pdftex.def Info: nbody-43.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-43.png> <a0,fr43>
+<nbody-44.png, id=227, 718.685pt x 718.685pt>
+File: nbody-44.png Graphic file (type png)
+<use nbody-44.png>
+Package pdftex.def Info: nbody-44.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-44.png> <a0,fr44>
+<nbody-45.png, id=231, 718.685pt x 718.685pt>
+File: nbody-45.png Graphic file (type png)
+<use nbody-45.png>
+Package pdftex.def Info: nbody-45.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-45.png> <a0,fr45>
+<nbody-46.png, id=235, 718.685pt x 718.685pt>
+File: nbody-46.png Graphic file (type png)
+<use nbody-46.png>
+Package pdftex.def Info: nbody-46.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-46.png> <a0,fr46>
+<nbody-47.png, id=239, 718.685pt x 718.685pt>
+File: nbody-47.png Graphic file (type png)
+<use nbody-47.png>
+Package pdftex.def Info: nbody-47.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-47.png> <a0,fr47>
+<nbody-48.png, id=243, 718.685pt x 718.685pt>
+File: nbody-48.png Graphic file (type png)
+<use nbody-48.png>
+Package pdftex.def Info: nbody-48.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-48.png> <a0,fr48>
+<nbody-49.png, id=247, 718.685pt x 718.685pt>
+File: nbody-49.png Graphic file (type png)
+<use nbody-49.png>
+Package pdftex.def Info: nbody-49.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-49.png> <a0,fr49>
+<nbody-50.png, id=251, 718.685pt x 718.685pt>
+File: nbody-50.png Graphic file (type png)
+<use nbody-50.png>
+Package pdftex.def Info: nbody-50.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-50.png> <a0,fr50>
+<nbody-51.png, id=255, 718.685pt x 718.685pt>
+File: nbody-51.png Graphic file (type png)
+<use nbody-51.png>
+Package pdftex.def Info: nbody-51.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-51.png> <a0,fr51>
+<nbody-52.png, id=259, 718.685pt x 718.685pt>
+File: nbody-52.png Graphic file (type png)
+<use nbody-52.png>
+Package pdftex.def Info: nbody-52.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-52.png> <a0,fr52>
+<nbody-53.png, id=263, 718.685pt x 718.685pt>
+File: nbody-53.png Graphic file (type png)
+<use nbody-53.png>
+Package pdftex.def Info: nbody-53.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-53.png> <a0,fr53>
+<nbody-54.png, id=267, 718.685pt x 718.685pt>
+File: nbody-54.png Graphic file (type png)
+<use nbody-54.png>
+Package pdftex.def Info: nbody-54.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-54.png> <a0,fr54>
+<nbody-55.png, id=271, 718.685pt x 718.685pt>
+File: nbody-55.png Graphic file (type png)
+<use nbody-55.png>
+Package pdftex.def Info: nbody-55.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-55.png>
+<a0,fr55>
+<nbody-56.png, id=275, 718.685pt x 718.685pt>
+File: nbody-56.png Graphic file (type png)
+<use nbody-56.png>
+Package pdftex.def Info: nbody-56.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-56.png> <a0,fr56>
+<nbody-57.png, id=279, 718.685pt x 718.685pt>
+File: nbody-57.png Graphic file (type png)
+<use nbody-57.png>
+Package pdftex.def Info: nbody-57.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-57.png> <a0,fr57>
+<nbody-58.png, id=283, 718.685pt x 718.685pt>
+File: nbody-58.png Graphic file (type png)
+<use nbody-58.png>
+Package pdftex.def Info: nbody-58.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-58.png> <a0,fr58>
+<nbody-59.png, id=287, 718.685pt x 718.685pt>
+File: nbody-59.png Graphic file (type png)
+<use nbody-59.png>
+Package pdftex.def Info: nbody-59.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-59.png> <a0,fr59>
+<nbody-60.png, id=291, 718.685pt x 718.685pt>
+File: nbody-60.png Graphic file (type png)
+<use nbody-60.png>
+Package pdftex.def Info: nbody-60.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-60.png> <a0,fr60>
+<nbody-61.png, id=295, 718.685pt x 718.685pt>
+File: nbody-61.png Graphic file (type png)
+<use nbody-61.png>
+Package pdftex.def Info: nbody-61.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-61.png> <a0,fr61>
+<nbody-62.png, id=299, 718.685pt x 718.685pt>
+File: nbody-62.png Graphic file (type png)
+<use nbody-62.png>
+Package pdftex.def Info: nbody-62.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-62.png> <a0,fr62>
+<nbody-63.png, id=303, 718.685pt x 718.685pt>
+File: nbody-63.png Graphic file (type png)
+<use nbody-63.png>
+Package pdftex.def Info: nbody-63.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-63.png> <a0,fr63>
+<nbody-64.png, id=307, 718.685pt x 718.685pt>
+File: nbody-64.png Graphic file (type png)
+<use nbody-64.png>
+Package pdftex.def Info: nbody-64.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-64.png> <a0,fr64>
+<nbody-65.png, id=311, 718.685pt x 718.685pt>
+File: nbody-65.png Graphic file (type png)
+<use nbody-65.png>
+Package pdftex.def Info: nbody-65.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-65.png> <a0,fr65>
+<nbody-66.png, id=315, 718.685pt x 718.685pt>
+File: nbody-66.png Graphic file (type png)
+<use nbody-66.png>
+Package pdftex.def Info: nbody-66.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-66.png> <a0,fr66>
+<nbody-67.png, id=319, 718.685pt x 718.685pt>
+File: nbody-67.png Graphic file (type png)
+<use nbody-67.png>
+Package pdftex.def Info: nbody-67.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-67.png> <a0,fr67>
+<nbody-68.png, id=323, 718.685pt x 718.685pt>
+File: nbody-68.png Graphic file (type png)
+<use nbody-68.png>
+Package pdftex.def Info: nbody-68.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-68.png> <a0,fr68>
+<nbody-69.png, id=327, 718.685pt x 718.685pt>
+File: nbody-69.png Graphic file (type png)
+<use nbody-69.png>
+Package pdftex.def Info: nbody-69.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-69.png> <a0,fr69>
+<nbody-70.png, id=331, 718.685pt x 718.685pt>
+File: nbody-70.png Graphic file (type png)
+<use nbody-70.png>
+Package pdftex.def Info: nbody-70.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-70.png> <a0,fr70>
+<nbody-71.png, id=335, 718.685pt x 718.685pt>
+File: nbody-71.png Graphic file (type png)
+<use nbody-71.png>
+Package pdftex.def Info: nbody-71.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-71.png> <a0,fr71>
+<nbody-72.png, id=339, 718.685pt x 718.685pt>
+File: nbody-72.png Graphic file (type png)
+<use nbody-72.png>
+Package pdftex.def Info: nbody-72.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-72.png> <a0,fr72>
+<nbody-73.png, id=343, 718.685pt x 718.685pt>
+File: nbody-73.png Graphic file (type png)
+<use nbody-73.png>
+Package pdftex.def Info: nbody-73.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-73.png> <a0,fr73>
+<nbody-74.png, id=347, 718.685pt x 718.685pt>
+File: nbody-74.png Graphic file (type png)
+<use nbody-74.png>
+Package pdftex.def Info: nbody-74.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-74.png> <a0,fr74>
+<nbody-75.png, id=351, 718.685pt x 718.685pt>
+File: nbody-75.png Graphic file (type png)
+<use nbody-75.png>
+Package pdftex.def Info: nbody-75.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-75.png> <a0,fr75>
+<nbody-76.png, id=355, 718.685pt x 718.685pt>
+File: nbody-76.png Graphic file (type png)
+<use nbody-76.png>
+Package pdftex.def Info: nbody-76.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-76.png> <a0,fr76>
+<nbody-77.png, id=359, 718.685pt x 718.685pt>
+File: nbody-77.png Graphic file (type png)
+<use nbody-77.png>
+Package pdftex.def Info: nbody-77.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-77.png> <a0,fr77>
+<nbody-78.png, id=363, 718.685pt x 718.685pt>
+File: nbody-78.png Graphic file (type png)
+<use nbody-78.png>
+Package pdftex.def Info: nbody-78.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-78.png> <a0,fr78>
+<nbody-79.png, id=367, 718.685pt x 718.685pt>
+File: nbody-79.png Graphic file (type png)
+<use nbody-79.png>
+Package pdftex.def Info: nbody-79.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-79.png> <a0,fr79>
+<nbody-80.png, id=372, 718.685pt x 718.685pt>
+File: nbody-80.png Graphic file (type png)
+<use nbody-80.png>
+Package pdftex.def Info: nbody-80.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-80.png> <a0,fr80>
+<nbody-81.png, id=376, 718.685pt x 718.685pt>
+File: nbody-81.png Graphic file (type png)
+<use nbody-81.png>
+Package pdftex.def Info: nbody-81.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-81.png>
+<a0,fr81>
+<nbody-82.png, id=380, 718.685pt x 718.685pt>
+File: nbody-82.png Graphic file (type png)
+<use nbody-82.png>
+Package pdftex.def Info: nbody-82.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-82.png> <a0,fr82>
+<nbody-83.png, id=384, 718.685pt x 718.685pt>
+File: nbody-83.png Graphic file (type png)
+<use nbody-83.png>
+Package pdftex.def Info: nbody-83.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-83.png> <a0,fr83>
+<nbody-84.png, id=388, 718.685pt x 718.685pt>
+File: nbody-84.png Graphic file (type png)
+<use nbody-84.png>
+Package pdftex.def Info: nbody-84.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-84.png> <a0,fr84>
+<nbody-85.png, id=392, 718.685pt x 718.685pt>
+File: nbody-85.png Graphic file (type png)
+<use nbody-85.png>
+Package pdftex.def Info: nbody-85.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-85.png> <a0,fr85>
+<nbody-86.png, id=396, 718.685pt x 718.685pt>
+File: nbody-86.png Graphic file (type png)
+<use nbody-86.png>
+Package pdftex.def Info: nbody-86.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-86.png> <a0,fr86>
+<nbody-87.png, id=400, 718.685pt x 718.685pt>
+File: nbody-87.png Graphic file (type png)
+<use nbody-87.png>
+Package pdftex.def Info: nbody-87.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-87.png> <a0,fr87>
+<nbody-88.png, id=404, 718.685pt x 718.685pt>
+File: nbody-88.png Graphic file (type png)
+<use nbody-88.png>
+Package pdftex.def Info: nbody-88.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-88.png> <a0,fr88>
+<nbody-89.png, id=408, 718.685pt x 718.685pt>
+File: nbody-89.png Graphic file (type png)
+<use nbody-89.png>
+Package pdftex.def Info: nbody-89.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-89.png> <a0,fr89>
+<nbody-90.png, id=412, 718.685pt x 718.685pt>
+File: nbody-90.png Graphic file (type png)
+<use nbody-90.png>
+Package pdftex.def Info: nbody-90.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-90.png> <a0,fr90>
+<nbody-91.png, id=416, 718.685pt x 718.685pt>
+File: nbody-91.png Graphic file (type png)
+<use nbody-91.png>
+Package pdftex.def Info: nbody-91.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-91.png> <a0,fr91>
+<nbody-92.png, id=420, 718.685pt x 718.685pt>
+File: nbody-92.png Graphic file (type png)
+<use nbody-92.png>
+Package pdftex.def Info: nbody-92.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-92.png> <a0,fr92>
+<nbody-93.png, id=424, 718.685pt x 718.685pt>
+File: nbody-93.png Graphic file (type png)
+<use nbody-93.png>
+Package pdftex.def Info: nbody-93.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-93.png> <a0,fr93>
+<nbody-94.png, id=428, 718.685pt x 718.685pt>
+File: nbody-94.png Graphic file (type png)
+<use nbody-94.png>
+Package pdftex.def Info: nbody-94.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-94.png> <a0,fr94>
+<nbody-95.png, id=432, 718.685pt x 718.685pt>
+File: nbody-95.png Graphic file (type png)
+<use nbody-95.png>
+Package pdftex.def Info: nbody-95.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-95.png> <a0,fr95>
+<nbody-96.png, id=436, 718.685pt x 718.685pt>
+File: nbody-96.png Graphic file (type png)
+<use nbody-96.png>
+Package pdftex.def Info: nbody-96.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-96.png> <a0,fr96>
+<nbody-97.png, id=440, 718.685pt x 718.685pt>
+File: nbody-97.png Graphic file (type png)
+<use nbody-97.png>
+Package pdftex.def Info: nbody-97.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-97.png> <a0,fr97>
+<nbody-98.png, id=444, 718.685pt x 718.685pt>
+File: nbody-98.png Graphic file (type png)
+<use nbody-98.png>
+Package pdftex.def Info: nbody-98.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-98.png> <a0,fr98>
+<nbody-99.png, id=448, 718.685pt x 718.685pt>
+File: nbody-99.png Graphic file (type png)
+<use nbody-99.png>
+Package pdftex.def Info: nbody-99.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-99.png> <a0,fr99>
+<nbody-100.png, id=452, 718.685pt x 718.685pt>
+File: nbody-100.png Graphic file (type png)
+<use nbody-100.png>
+Package pdftex.def Info: nbody-100.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-100.png> <a0,fr100>
+<nbody-101.png, id=456, 718.685pt x 718.685pt>
+File: nbody-101.png Graphic file (type png)
+<use nbody-101.png>
+Package pdftex.def Info: nbody-101.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-101.png>
+<a0,fr101>
+<nbody-102.png, id=460, 718.685pt x 718.685pt>
+File: nbody-102.png Graphic file (type png)
+<use nbody-102.png>
+Package pdftex.def Info: nbody-102.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-102.png> <a0,fr102>
+<nbody-103.png, id=464, 718.685pt x 718.685pt>
+File: nbody-103.png Graphic file (type png)
+<use nbody-103.png>
+Package pdftex.def Info: nbody-103.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-103.png> <a0,fr103>
+<nbody-104.png, id=468, 718.685pt x 718.685pt>
+File: nbody-104.png Graphic file (type png)
+<use nbody-104.png>
+Package pdftex.def Info: nbody-104.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-104.png> <a0,fr104>
+<nbody-105.png, id=472, 718.685pt x 718.685pt>
+File: nbody-105.png Graphic file (type png)
+<use nbody-105.png>
+Package pdftex.def Info: nbody-105.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-105.png> <a0,fr105>
+<nbody-106.png, id=476, 718.685pt x 718.685pt>
+File: nbody-106.png Graphic file (type png)
+<use nbody-106.png>
+Package pdftex.def Info: nbody-106.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-106.png> <a0,fr106>
+<nbody-107.png, id=480, 718.685pt x 718.685pt>
+File: nbody-107.png Graphic file (type png)
+<use nbody-107.png>
+Package pdftex.def Info: nbody-107.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-107.png> <a0,fr107>
+<nbody-108.png, id=484, 718.685pt x 718.685pt>
+File: nbody-108.png Graphic file (type png)
+<use nbody-108.png>
+Package pdftex.def Info: nbody-108.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-108.png> <a0,fr108>
+<nbody-109.png, id=488, 718.685pt x 718.685pt>
+File: nbody-109.png Graphic file (type png)
+<use nbody-109.png>
+Package pdftex.def Info: nbody-109.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-109.png>
+<a0,fr109>
+<nbody-110.png, id=492, 718.685pt x 718.685pt>
+File: nbody-110.png Graphic file (type png)
+<use nbody-110.png>
+Package pdftex.def Info: nbody-110.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-110.png> <a0,fr110>
+<nbody-111.png, id=496, 718.685pt x 718.685pt>
+File: nbody-111.png Graphic file (type png)
+<use nbody-111.png>
+Package pdftex.def Info: nbody-111.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-111.png> <a0,fr111>
+<nbody-112.png, id=500, 718.685pt x 718.685pt>
+File: nbody-112.png Graphic file (type png)
+<use nbody-112.png>
+Package pdftex.def Info: nbody-112.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-112.png> <a0,fr112>
+<nbody-113.png, id=504, 718.685pt x 718.685pt>
+File: nbody-113.png Graphic file (type png)
+<use nbody-113.png>
+Package pdftex.def Info: nbody-113.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-113.png> <a0,fr113>
+<nbody-114.png, id=508, 718.685pt x 718.685pt>
+File: nbody-114.png Graphic file (type png)
+<use nbody-114.png>
+Package pdftex.def Info: nbody-114.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-114.png> <a0,fr114>
+<nbody-115.png, id=512, 718.685pt x 718.685pt>
+File: nbody-115.png Graphic file (type png)
+<use nbody-115.png>
+Package pdftex.def Info: nbody-115.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-115.png> <a0,fr115>
+<nbody-116.png, id=516, 718.685pt x 718.685pt>
+File: nbody-116.png Graphic file (type png)
+<use nbody-116.png>
+Package pdftex.def Info: nbody-116.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-116.png> <a0,fr116>
+<nbody-117.png, id=520, 718.685pt x 718.685pt>
+File: nbody-117.png Graphic file (type png)
+<use nbody-117.png>
+Package pdftex.def Info: nbody-117.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-117.png>
+<a0,fr117>
+<nbody-118.png, id=524, 718.685pt x 718.685pt>
+File: nbody-118.png Graphic file (type png)
+<use nbody-118.png>
+Package pdftex.def Info: nbody-118.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-118.png> <a0,fr118>
+<nbody-119.png, id=528, 718.685pt x 718.685pt>
+File: nbody-119.png Graphic file (type png)
+<use nbody-119.png>
+Package pdftex.def Info: nbody-119.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-119.png> <a0,fr119>
+<nbody-120.png, id=532, 718.685pt x 718.685pt>
+File: nbody-120.png Graphic file (type png)
+<use nbody-120.png>
+Package pdftex.def Info: nbody-120.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-120.png> <a0,fr120>
+<nbody-121.png, id=536, 718.685pt x 718.685pt>
+File: nbody-121.png Graphic file (type png)
+<use nbody-121.png>
+Package pdftex.def Info: nbody-121.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-121.png> <a0,fr121>
+<nbody-122.png, id=540, 718.685pt x 718.685pt>
+File: nbody-122.png Graphic file (type png)
+<use nbody-122.png>
+Package pdftex.def Info: nbody-122.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-122.png> <a0,fr122>
+<nbody-123.png, id=544, 718.685pt x 718.685pt>
+File: nbody-123.png Graphic file (type png)
+<use nbody-123.png>
+Package pdftex.def Info: nbody-123.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-123.png> <a0,fr123>
+<nbody-124.png, id=548, 718.685pt x 718.685pt>
+File: nbody-124.png Graphic file (type png)
+<use nbody-124.png>
+Package pdftex.def Info: nbody-124.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-124.png> <a0,fr124>
+<nbody-125.png, id=552, 718.685pt x 718.685pt>
+File: nbody-125.png Graphic file (type png)
+<use nbody-125.png>
+Package pdftex.def Info: nbody-125.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-125.png>
+<a0,fr125>
+<nbody-126.png, id=556, 718.685pt x 718.685pt>
+File: nbody-126.png Graphic file (type png)
+<use nbody-126.png>
+Package pdftex.def Info: nbody-126.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-126.png> <a0,fr126>
+<nbody-127.png, id=560, 718.685pt x 718.685pt>
+File: nbody-127.png Graphic file (type png)
+<use nbody-127.png>
+Package pdftex.def Info: nbody-127.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-127.png> <a0,fr127>
+<nbody-128.png, id=564, 718.685pt x 718.685pt>
+File: nbody-128.png Graphic file (type png)
+<use nbody-128.png>
+Package pdftex.def Info: nbody-128.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-128.png> <a0,fr128>
+<nbody-129.png, id=568, 718.685pt x 718.685pt>
+File: nbody-129.png Graphic file (type png)
+<use nbody-129.png>
+Package pdftex.def Info: nbody-129.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-129.png> <a0,fr129>
+<nbody-130.png, id=572, 718.685pt x 718.685pt>
+File: nbody-130.png Graphic file (type png)
+<use nbody-130.png>
+Package pdftex.def Info: nbody-130.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-130.png> <a0,fr130>
+<nbody-131.png, id=576, 718.685pt x 718.685pt>
+File: nbody-131.png Graphic file (type png)
+<use nbody-131.png>
+Package pdftex.def Info: nbody-131.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-131.png> <a0,fr131>
+<nbody-132.png, id=580, 718.685pt x 718.685pt>
+File: nbody-132.png Graphic file (type png)
+<use nbody-132.png>
+Package pdftex.def Info: nbody-132.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-132.png> <a0,fr132>
+<nbody-133.png, id=584, 718.685pt x 718.685pt>
+File: nbody-133.png Graphic file (type png)
+<use nbody-133.png>
+Package pdftex.def Info: nbody-133.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-133.png>
+<a0,fr133>
+<nbody-134.png, id=588, 718.685pt x 718.685pt>
+File: nbody-134.png Graphic file (type png)
+<use nbody-134.png>
+Package pdftex.def Info: nbody-134.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-134.png> <a0,fr134>
+<nbody-135.png, id=592, 718.685pt x 718.685pt>
+File: nbody-135.png Graphic file (type png)
+<use nbody-135.png>
+Package pdftex.def Info: nbody-135.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-135.png> <a0,fr135>
+<nbody-136.png, id=596, 718.685pt x 718.685pt>
+File: nbody-136.png Graphic file (type png)
+<use nbody-136.png>
+Package pdftex.def Info: nbody-136.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-136.png> <a0,fr136>
+<nbody-137.png, id=600, 718.685pt x 718.685pt>
+File: nbody-137.png Graphic file (type png)
+<use nbody-137.png>
+Package pdftex.def Info: nbody-137.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-137.png> <a0,fr137>
+<nbody-138.png, id=604, 718.685pt x 718.685pt>
+File: nbody-138.png Graphic file (type png)
+<use nbody-138.png>
+Package pdftex.def Info: nbody-138.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-138.png> <a0,fr138>
+<nbody-139.png, id=608, 718.685pt x 718.685pt>
+File: nbody-139.png Graphic file (type png)
+<use nbody-139.png>
+Package pdftex.def Info: nbody-139.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-139.png> <a0,fr139>
+<nbody-140.png, id=612, 718.685pt x 718.685pt>
+File: nbody-140.png Graphic file (type png)
+<use nbody-140.png>
+Package pdftex.def Info: nbody-140.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-140.png> <a0,fr140>
+<nbody-141.png, id=616, 718.685pt x 718.685pt>
+File: nbody-141.png Graphic file (type png)
+<use nbody-141.png>
+Package pdftex.def Info: nbody-141.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-141.png>
+<a0,fr141>
+<nbody-142.png, id=620, 718.685pt x 718.685pt>
+File: nbody-142.png Graphic file (type png)
+<use nbody-142.png>
+Package pdftex.def Info: nbody-142.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-142.png> <a0,fr142>
+<nbody-143.png, id=624, 718.685pt x 718.685pt>
+File: nbody-143.png Graphic file (type png)
+<use nbody-143.png>
+Package pdftex.def Info: nbody-143.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-143.png> <a0,fr143>
+<nbody-144.png, id=628, 718.685pt x 718.685pt>
+File: nbody-144.png Graphic file (type png)
+<use nbody-144.png>
+Package pdftex.def Info: nbody-144.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-144.png> <a0,fr144>
+<nbody-145.png, id=632, 718.685pt x 718.685pt>
+File: nbody-145.png Graphic file (type png)
+<use nbody-145.png>
+Package pdftex.def Info: nbody-145.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-145.png> <a0,fr145>
+<nbody-146.png, id=636, 718.685pt x 718.685pt>
+File: nbody-146.png Graphic file (type png)
+<use nbody-146.png>
+Package pdftex.def Info: nbody-146.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-146.png> <a0,fr146>
+<nbody-147.png, id=640, 718.685pt x 718.685pt>
+File: nbody-147.png Graphic file (type png)
+<use nbody-147.png>
+Package pdftex.def Info: nbody-147.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-147.png> <a0,fr147>
+<nbody-148.png, id=644, 718.685pt x 718.685pt>
+File: nbody-148.png Graphic file (type png)
+<use nbody-148.png>
+Package pdftex.def Info: nbody-148.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-148.png> <a0,fr148>
+<nbody-149.png, id=648, 718.685pt x 718.685pt>
+File: nbody-149.png Graphic file (type png)
+<use nbody-149.png>
+Package pdftex.def Info: nbody-149.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-149.png>
+<a0,fr149>
+<nbody-150.png, id=652, 718.685pt x 718.685pt>
+File: nbody-150.png Graphic file (type png)
+<use nbody-150.png>
+Package pdftex.def Info: nbody-150.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-150.png> <a0,fr150>
+<nbody-151.png, id=656, 718.685pt x 718.685pt>
+File: nbody-151.png Graphic file (type png)
+<use nbody-151.png>
+Package pdftex.def Info: nbody-151.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-151.png> <a0,fr151>
+<nbody-152.png, id=660, 718.685pt x 718.685pt>
+File: nbody-152.png Graphic file (type png)
+<use nbody-152.png>
+Package pdftex.def Info: nbody-152.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-152.png> <a0,fr152>
+<nbody-153.png, id=664, 718.685pt x 718.685pt>
+File: nbody-153.png Graphic file (type png)
+<use nbody-153.png>
+Package pdftex.def Info: nbody-153.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-153.png> <a0,fr153>
+<nbody-154.png, id=668, 718.685pt x 718.685pt>
+File: nbody-154.png Graphic file (type png)
+<use nbody-154.png>
+Package pdftex.def Info: nbody-154.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-154.png> <a0,fr154>
+<nbody-155.png, id=672, 718.685pt x 718.685pt>
+File: nbody-155.png Graphic file (type png)
+<use nbody-155.png>
+Package pdftex.def Info: nbody-155.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-155.png> <a0,fr155>
+<nbody-156.png, id=676, 718.685pt x 718.685pt>
+File: nbody-156.png Graphic file (type png)
+<use nbody-156.png>
+Package pdftex.def Info: nbody-156.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-156.png> <a0,fr156>
+<nbody-157.png, id=680, 718.685pt x 718.685pt>
+File: nbody-157.png Graphic file (type png)
+<use nbody-157.png>
+Package pdftex.def Info: nbody-157.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-157.png>
+<a0,fr157>
+<nbody-158.png, id=684, 718.685pt x 718.685pt>
+File: nbody-158.png Graphic file (type png)
+<use nbody-158.png>
+Package pdftex.def Info: nbody-158.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-158.png> <a0,fr158>
+<nbody-159.png, id=688, 718.685pt x 718.685pt>
+File: nbody-159.png Graphic file (type png)
+<use nbody-159.png>
+Package pdftex.def Info: nbody-159.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-159.png> <a0,fr159>
+<nbody-160.png, id=692, 718.685pt x 718.685pt>
+File: nbody-160.png Graphic file (type png)
+<use nbody-160.png>
+Package pdftex.def Info: nbody-160.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-160.png> <a0,fr160>
+<nbody-161.png, id=696, 718.685pt x 718.685pt>
+File: nbody-161.png Graphic file (type png)
+<use nbody-161.png>
+Package pdftex.def Info: nbody-161.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-161.png> <a0,fr161>
+<nbody-162.png, id=700, 718.685pt x 718.685pt>
+File: nbody-162.png Graphic file (type png)
+<use nbody-162.png>
+Package pdftex.def Info: nbody-162.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-162.png> <a0,fr162>
+<nbody-163.png, id=704, 718.685pt x 718.685pt>
+File: nbody-163.png Graphic file (type png)
+<use nbody-163.png>
+Package pdftex.def Info: nbody-163.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-163.png> <a0,fr163>
+<nbody-164.png, id=708, 718.685pt x 718.685pt>
+File: nbody-164.png Graphic file (type png)
+<use nbody-164.png>
+Package pdftex.def Info: nbody-164.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-164.png> <a0,fr164>
+<nbody-165.png, id=712, 718.685pt x 718.685pt>
+File: nbody-165.png Graphic file (type png)
+<use nbody-165.png>
+Package pdftex.def Info: nbody-165.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-165.png>
+<a0,fr165>
+<nbody-166.png, id=716, 718.685pt x 718.685pt>
+File: nbody-166.png Graphic file (type png)
+<use nbody-166.png>
+Package pdftex.def Info: nbody-166.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-166.png> <a0,fr166>
+<nbody-167.png, id=720, 718.685pt x 718.685pt>
+File: nbody-167.png Graphic file (type png)
+<use nbody-167.png>
+Package pdftex.def Info: nbody-167.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-167.png> <a0,fr167>
+<nbody-168.png, id=724, 718.685pt x 718.685pt>
+File: nbody-168.png Graphic file (type png)
+<use nbody-168.png>
+Package pdftex.def Info: nbody-168.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-168.png> <a0,fr168>
+<nbody-169.png, id=728, 718.685pt x 718.685pt>
+File: nbody-169.png Graphic file (type png)
+<use nbody-169.png>
+Package pdftex.def Info: nbody-169.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-169.png> <a0,fr169>
+<nbody-170.png, id=732, 718.685pt x 718.685pt>
+File: nbody-170.png Graphic file (type png)
+<use nbody-170.png>
+Package pdftex.def Info: nbody-170.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-170.png> <a0,fr170>
+<nbody-171.png, id=736, 718.685pt x 718.685pt>
+File: nbody-171.png Graphic file (type png)
+<use nbody-171.png>
+Package pdftex.def Info: nbody-171.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-171.png> <a0,fr171>
+<nbody-172.png, id=740, 718.685pt x 718.685pt>
+File: nbody-172.png Graphic file (type png)
+<use nbody-172.png>
+Package pdftex.def Info: nbody-172.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-172.png> <a0,fr172>
+<nbody-173.png, id=744, 718.685pt x 718.685pt>
+File: nbody-173.png Graphic file (type png)
+<use nbody-173.png>
+Package pdftex.def Info: nbody-173.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-173.png>
+<a0,fr173>
+<nbody-174.png, id=748, 718.685pt x 718.685pt>
+File: nbody-174.png Graphic file (type png)
+<use nbody-174.png>
+Package pdftex.def Info: nbody-174.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-174.png> <a0,fr174>
+<nbody-175.png, id=752, 718.685pt x 718.685pt>
+File: nbody-175.png Graphic file (type png)
+<use nbody-175.png>
+Package pdftex.def Info: nbody-175.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-175.png> <a0,fr175>
+<nbody-176.png, id=756, 718.685pt x 718.685pt>
+File: nbody-176.png Graphic file (type png)
+<use nbody-176.png>
+Package pdftex.def Info: nbody-176.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-176.png> <a0,fr176>
+<nbody-177.png, id=760, 718.685pt x 718.685pt>
+File: nbody-177.png Graphic file (type png)
+<use nbody-177.png>
+Package pdftex.def Info: nbody-177.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-177.png> <a0,fr177>
+<nbody-178.png, id=764, 718.685pt x 718.685pt>
+File: nbody-178.png Graphic file (type png)
+<use nbody-178.png>
+Package pdftex.def Info: nbody-178.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-178.png> <a0,fr178>
+<nbody-179.png, id=768, 718.685pt x 718.685pt>
+File: nbody-179.png Graphic file (type png)
+<use nbody-179.png>
+Package pdftex.def Info: nbody-179.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-179.png> <a0,fr179>
+<nbody-180.png, id=773, 718.685pt x 718.685pt>
+File: nbody-180.png Graphic file (type png)
+<use nbody-180.png>
+Package pdftex.def Info: nbody-180.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-180.png> <a0,fr180>
+<nbody-181.png, id=777, 718.685pt x 718.685pt>
+File: nbody-181.png Graphic file (type png)
+<use nbody-181.png>
+Package pdftex.def Info: nbody-181.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-181.png>
+<a0,fr181>
+<nbody-182.png, id=781, 718.685pt x 718.685pt>
+File: nbody-182.png Graphic file (type png)
+<use nbody-182.png>
+Package pdftex.def Info: nbody-182.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-182.png> <a0,fr182>
+<nbody-183.png, id=785, 718.685pt x 718.685pt>
+File: nbody-183.png Graphic file (type png)
+<use nbody-183.png>
+Package pdftex.def Info: nbody-183.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-183.png> <a0,fr183>
+<nbody-184.png, id=789, 718.685pt x 718.685pt>
+File: nbody-184.png Graphic file (type png)
+<use nbody-184.png>
+Package pdftex.def Info: nbody-184.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-184.png> <a0,fr184>
+<nbody-185.png, id=793, 718.685pt x 718.685pt>
+File: nbody-185.png Graphic file (type png)
+<use nbody-185.png>
+Package pdftex.def Info: nbody-185.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-185.png> <a0,fr185>
+<nbody-186.png, id=797, 718.685pt x 718.685pt>
+File: nbody-186.png Graphic file (type png)
+<use nbody-186.png>
+Package pdftex.def Info: nbody-186.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-186.png> <a0,fr186>
+<nbody-187.png, id=801, 718.685pt x 718.685pt>
+File: nbody-187.png Graphic file (type png)
+<use nbody-187.png>
+Package pdftex.def Info: nbody-187.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-187.png> <a0,fr187>
+<nbody-188.png, id=805, 718.685pt x 718.685pt>
+File: nbody-188.png Graphic file (type png)
+<use nbody-188.png>
+Package pdftex.def Info: nbody-188.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-188.png> <a0,fr188>
+<nbody-189.png, id=809, 718.685pt x 718.685pt>
+File: nbody-189.png Graphic file (type png)
+<use nbody-189.png>
+Package pdftex.def Info: nbody-189.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-189.png>
+<a0,fr189>
+<nbody-190.png, id=813, 718.685pt x 718.685pt>
+File: nbody-190.png Graphic file (type png)
+<use nbody-190.png>
+Package pdftex.def Info: nbody-190.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-190.png> <a0,fr190>
+<nbody-191.png, id=817, 718.685pt x 718.685pt>
+File: nbody-191.png Graphic file (type png)
+<use nbody-191.png>
+Package pdftex.def Info: nbody-191.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-191.png> <a0,fr191>
+<nbody-192.png, id=821, 718.685pt x 718.685pt>
+File: nbody-192.png Graphic file (type png)
+<use nbody-192.png>
+Package pdftex.def Info: nbody-192.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-192.png> <a0,fr192>
+<nbody-193.png, id=825, 718.685pt x 718.685pt>
+File: nbody-193.png Graphic file (type png)
+<use nbody-193.png>
+Package pdftex.def Info: nbody-193.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-193.png> <a0,fr193>
+<nbody-194.png, id=829, 718.685pt x 718.685pt>
+File: nbody-194.png Graphic file (type png)
+<use nbody-194.png>
+Package pdftex.def Info: nbody-194.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-194.png> <a0,fr194>
+<nbody-195.png, id=833, 718.685pt x 718.685pt>
+File: nbody-195.png Graphic file (type png)
+<use nbody-195.png>
+Package pdftex.def Info: nbody-195.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-195.png> <a0,fr195>
+<nbody-196.png, id=837, 718.685pt x 718.685pt>
+File: nbody-196.png Graphic file (type png)
+<use nbody-196.png>
+Package pdftex.def Info: nbody-196.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-196.png> <a0,fr196>
+<nbody-197.png, id=841, 718.685pt x 718.685pt>
+File: nbody-197.png Graphic file (type png)
+<use nbody-197.png>
+Package pdftex.def Info: nbody-197.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-197.png>
+<a0,fr197>
+<nbody-198.png, id=845, 718.685pt x 718.685pt>
+File: nbody-198.png Graphic file (type png)
+<use nbody-198.png>
+Package pdftex.def Info: nbody-198.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-198.png> <a0,fr198>
+<nbody-199.png, id=849, 718.685pt x 718.685pt>
+File: nbody-199.png Graphic file (type png)
+<use nbody-199.png>
+Package pdftex.def Info: nbody-199.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-199.png> <a0,fr199>
+<nbody-200.png, id=853, 718.685pt x 718.685pt>
+File: nbody-200.png Graphic file (type png)
+<use nbody-200.png>
+Package pdftex.def Info: nbody-200.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-200.png> <a0,fr200>
+<nbody-201.png, id=857, 718.685pt x 718.685pt>
+File: nbody-201.png Graphic file (type png)
+<use nbody-201.png>
+Package pdftex.def Info: nbody-201.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-201.png> <a0,fr201>
+<nbody-202.png, id=861, 718.685pt x 718.685pt>
+File: nbody-202.png Graphic file (type png)
+<use nbody-202.png>
+Package pdftex.def Info: nbody-202.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-202.png> <a0,fr202>
+<nbody-203.png, id=865, 718.685pt x 718.685pt>
+File: nbody-203.png Graphic file (type png)
+<use nbody-203.png>
+Package pdftex.def Info: nbody-203.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-203.png> <a0,fr203>
+<nbody-204.png, id=869, 718.685pt x 718.685pt>
+File: nbody-204.png Graphic file (type png)
+<use nbody-204.png>
+Package pdftex.def Info: nbody-204.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-204.png> <a0,fr204>
+<nbody-205.png, id=873, 718.685pt x 718.685pt>
+File: nbody-205.png Graphic file (type png)
+<use nbody-205.png>
+Package pdftex.def Info: nbody-205.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-205.png>
+<a0,fr205>
+<nbody-206.png, id=877, 718.685pt x 718.685pt>
+File: nbody-206.png Graphic file (type png)
+<use nbody-206.png>
+Package pdftex.def Info: nbody-206.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-206.png> <a0,fr206>
+<nbody-207.png, id=881, 718.685pt x 718.685pt>
+File: nbody-207.png Graphic file (type png)
+<use nbody-207.png>
+Package pdftex.def Info: nbody-207.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-207.png> <a0,fr207>
+<nbody-208.png, id=885, 718.685pt x 718.685pt>
+File: nbody-208.png Graphic file (type png)
+<use nbody-208.png>
+Package pdftex.def Info: nbody-208.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-208.png> <a0,fr208>
+<nbody-209.png, id=889, 718.685pt x 718.685pt>
+File: nbody-209.png Graphic file (type png)
+<use nbody-209.png>
+Package pdftex.def Info: nbody-209.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-209.png> <a0,fr209>
+<nbody-210.png, id=893, 718.685pt x 718.685pt>
+File: nbody-210.png Graphic file (type png)
+<use nbody-210.png>
+Package pdftex.def Info: nbody-210.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-210.png> <a0,fr210>
+<nbody-211.png, id=897, 718.685pt x 718.685pt>
+File: nbody-211.png Graphic file (type png)
+<use nbody-211.png>
+Package pdftex.def Info: nbody-211.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-211.png> <a0,fr211>
+<nbody-212.png, id=901, 718.685pt x 718.685pt>
+File: nbody-212.png Graphic file (type png)
+<use nbody-212.png>
+Package pdftex.def Info: nbody-212.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-212.png> <a0,fr212>
+<nbody-213.png, id=905, 718.685pt x 718.685pt>
+File: nbody-213.png Graphic file (type png)
+<use nbody-213.png>
+Package pdftex.def Info: nbody-213.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-213.png>
+<a0,fr213>
+<nbody-214.png, id=909, 718.685pt x 718.685pt>
+File: nbody-214.png Graphic file (type png)
+<use nbody-214.png>
+Package pdftex.def Info: nbody-214.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-214.png> <a0,fr214>
+<nbody-215.png, id=913, 718.685pt x 718.685pt>
+File: nbody-215.png Graphic file (type png)
+<use nbody-215.png>
+Package pdftex.def Info: nbody-215.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-215.png> <a0,fr215>
+<nbody-216.png, id=917, 718.685pt x 718.685pt>
+File: nbody-216.png Graphic file (type png)
+<use nbody-216.png>
+Package pdftex.def Info: nbody-216.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-216.png> <a0,fr216>
+<nbody-217.png, id=921, 718.685pt x 718.685pt>
+File: nbody-217.png Graphic file (type png)
+<use nbody-217.png>
+Package pdftex.def Info: nbody-217.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-217.png> <a0,fr217>
+<nbody-218.png, id=925, 718.685pt x 718.685pt>
+File: nbody-218.png Graphic file (type png)
+<use nbody-218.png>
+Package pdftex.def Info: nbody-218.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-218.png> <a0,fr218>
+<nbody-219.png, id=929, 718.685pt x 718.685pt>
+File: nbody-219.png Graphic file (type png)
+<use nbody-219.png>
+Package pdftex.def Info: nbody-219.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-219.png> <a0,fr219>
+<nbody-220.png, id=933, 718.685pt x 718.685pt>
+File: nbody-220.png Graphic file (type png)
+<use nbody-220.png>
+Package pdftex.def Info: nbody-220.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-220.png> <a0,fr220>
+<nbody-221.png, id=937, 718.685pt x 718.685pt>
+File: nbody-221.png Graphic file (type png)
+<use nbody-221.png>
+Package pdftex.def Info: nbody-221.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-221.png>
+<a0,fr221>
+<nbody-222.png, id=941, 718.685pt x 718.685pt>
+File: nbody-222.png Graphic file (type png)
+<use nbody-222.png>
+Package pdftex.def Info: nbody-222.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-222.png> <a0,fr222>
+<nbody-223.png, id=945, 718.685pt x 718.685pt>
+File: nbody-223.png Graphic file (type png)
+<use nbody-223.png>
+Package pdftex.def Info: nbody-223.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-223.png> <a0,fr223>
+<nbody-224.png, id=949, 718.685pt x 718.685pt>
+File: nbody-224.png Graphic file (type png)
+<use nbody-224.png>
+Package pdftex.def Info: nbody-224.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-224.png> <a0,fr224>
+<nbody-225.png, id=953, 718.685pt x 718.685pt>
+File: nbody-225.png Graphic file (type png)
+<use nbody-225.png>
+Package pdftex.def Info: nbody-225.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-225.png> <a0,fr225>
+<nbody-226.png, id=957, 718.685pt x 718.685pt>
+File: nbody-226.png Graphic file (type png)
+<use nbody-226.png>
+Package pdftex.def Info: nbody-226.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-226.png> <a0,fr226>
+<nbody-227.png, id=961, 718.685pt x 718.685pt>
+File: nbody-227.png Graphic file (type png)
+<use nbody-227.png>
+Package pdftex.def Info: nbody-227.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-227.png> <a0,fr227>
+<nbody-228.png, id=965, 718.685pt x 718.685pt>
+File: nbody-228.png Graphic file (type png)
+<use nbody-228.png>
+Package pdftex.def Info: nbody-228.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-228.png> <a0,fr228>
+<nbody-229.png, id=969, 718.685pt x 718.685pt>
+File: nbody-229.png Graphic file (type png)
+<use nbody-229.png>
+Package pdftex.def Info: nbody-229.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-229.png>
+<a0,fr229>
+<nbody-230.png, id=973, 718.685pt x 718.685pt>
+File: nbody-230.png Graphic file (type png)
+<use nbody-230.png>
+Package pdftex.def Info: nbody-230.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-230.png> <a0,fr230>
+<nbody-231.png, id=977, 718.685pt x 718.685pt>
+File: nbody-231.png Graphic file (type png)
+<use nbody-231.png>
+Package pdftex.def Info: nbody-231.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-231.png> <a0,fr231>
+<nbody-232.png, id=981, 718.685pt x 718.685pt>
+File: nbody-232.png Graphic file (type png)
+<use nbody-232.png>
+Package pdftex.def Info: nbody-232.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-232.png> <a0,fr232>
+<nbody-233.png, id=985, 718.685pt x 718.685pt>
+File: nbody-233.png Graphic file (type png)
+<use nbody-233.png>
+Package pdftex.def Info: nbody-233.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-233.png> <a0,fr233>
+<nbody-234.png, id=989, 718.685pt x 718.685pt>
+File: nbody-234.png Graphic file (type png)
+<use nbody-234.png>
+Package pdftex.def Info: nbody-234.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-234.png> <a0,fr234>
+<nbody-235.png, id=993, 718.685pt x 718.685pt>
+File: nbody-235.png Graphic file (type png)
+<use nbody-235.png>
+Package pdftex.def Info: nbody-235.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-235.png> <a0,fr235>
+<nbody-236.png, id=997, 718.685pt x 718.685pt>
+File: nbody-236.png Graphic file (type png)
+<use nbody-236.png>
+Package pdftex.def Info: nbody-236.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-236.png> <a0,fr236>
+<nbody-237.png, id=1001, 718.685pt x 718.685pt>
+File: nbody-237.png Graphic file (type png)
+<use nbody-237.png>
+Package pdftex.def Info: nbody-237.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-237.png>
+<a0,fr237>
+<nbody-238.png, id=1005, 718.685pt x 718.685pt>
+File: nbody-238.png Graphic file (type png)
+<use nbody-238.png>
+Package pdftex.def Info: nbody-238.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-238.png> <a0,fr238>
+<nbody-239.png, id=1009, 718.685pt x 718.685pt>
+File: nbody-239.png Graphic file (type png)
+<use nbody-239.png>
+Package pdftex.def Info: nbody-239.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-239.png> <a0,fr239>
+<nbody-240.png, id=1013, 718.685pt x 718.685pt>
+File: nbody-240.png Graphic file (type png)
+<use nbody-240.png>
+Package pdftex.def Info: nbody-240.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-240.png> <a0,fr240>
+<nbody-241.png, id=1017, 718.685pt x 718.685pt>
+File: nbody-241.png Graphic file (type png)
+<use nbody-241.png>
+Package pdftex.def Info: nbody-241.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-241.png> <a0,fr241>
+<nbody-242.png, id=1021, 718.685pt x 718.685pt>
+File: nbody-242.png Graphic file (type png)
+<use nbody-242.png>
+Package pdftex.def Info: nbody-242.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-242.png> <a0,fr242>
+<nbody-243.png, id=1025, 718.685pt x 718.685pt>
+File: nbody-243.png Graphic file (type png)
+<use nbody-243.png>
+Package pdftex.def Info: nbody-243.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-243.png> <a0,fr243>
+<nbody-244.png, id=1029, 718.685pt x 718.685pt>
+File: nbody-244.png Graphic file (type png)
+<use nbody-244.png>
+Package pdftex.def Info: nbody-244.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-244.png> <a0,fr244>
+<nbody-245.png, id=1033, 718.685pt x 718.685pt>
+File: nbody-245.png Graphic file (type png)
+<use nbody-245.png>
+Package pdftex.def Info: nbody-245.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-245.png>
+<a0,fr245>
+<nbody-246.png, id=1037, 718.685pt x 718.685pt>
+File: nbody-246.png Graphic file (type png)
+<use nbody-246.png>
+Package pdftex.def Info: nbody-246.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-246.png> <a0,fr246>
+<nbody-247.png, id=1041, 718.685pt x 718.685pt>
+File: nbody-247.png Graphic file (type png)
+<use nbody-247.png>
+Package pdftex.def Info: nbody-247.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-247.png> <a0,fr247>
+<nbody-248.png, id=1045, 718.685pt x 718.685pt>
+File: nbody-248.png Graphic file (type png)
+<use nbody-248.png>
+Package pdftex.def Info: nbody-248.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-248.png> <a0,fr248>
+<nbody-249.png, id=1049, 718.685pt x 718.685pt>
+File: nbody-249.png Graphic file (type png)
+<use nbody-249.png>
+Package pdftex.def Info: nbody-249.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-249.png> <a0,fr249>
+<nbody-250.png, id=1053, 718.685pt x 718.685pt>
+File: nbody-250.png Graphic file (type png)
+<use nbody-250.png>
+Package pdftex.def Info: nbody-250.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-250.png> <a0,fr250>
+<nbody-251.png, id=1057, 718.685pt x 718.685pt>
+File: nbody-251.png Graphic file (type png)
+<use nbody-251.png>
+Package pdftex.def Info: nbody-251.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-251.png> <a0,fr251>
+<nbody-252.png, id=1061, 718.685pt x 718.685pt>
+File: nbody-252.png Graphic file (type png)
+<use nbody-252.png>
+Package pdftex.def Info: nbody-252.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-252.png> <a0,fr252>
+<nbody-253.png, id=1065, 718.685pt x 718.685pt>
+File: nbody-253.png Graphic file (type png)
+<use nbody-253.png>
+Package pdftex.def Info: nbody-253.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-253.png>
+<a0,fr253>
+<nbody-254.png, id=1069, 718.685pt x 718.685pt>
+File: nbody-254.png Graphic file (type png)
+<use nbody-254.png>
+Package pdftex.def Info: nbody-254.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-254.png> <a0,fr254>
+<nbody-255.png, id=1073, 718.685pt x 718.685pt>
+File: nbody-255.png Graphic file (type png)
+<use nbody-255.png>
+Package pdftex.def Info: nbody-255.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-255.png> <a0,fr255>
+<nbody-256.png, id=1077, 718.685pt x 718.685pt>
+File: nbody-256.png Graphic file (type png)
+<use nbody-256.png>
+Package pdftex.def Info: nbody-256.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-256.png> <a0,fr256>
+<nbody-257.png, id=1081, 718.685pt x 718.685pt>
+File: nbody-257.png Graphic file (type png)
+<use nbody-257.png>
+Package pdftex.def Info: nbody-257.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-257.png> <a0,fr257>
+<nbody-258.png, id=1085, 718.685pt x 718.685pt>
+File: nbody-258.png Graphic file (type png)
+<use nbody-258.png>
+Package pdftex.def Info: nbody-258.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-258.png> <a0,fr258>
+<nbody-259.png, id=1089, 718.685pt x 718.685pt>
+File: nbody-259.png Graphic file (type png)
+<use nbody-259.png>
+Package pdftex.def Info: nbody-259.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-259.png> <a0,fr259>
+<nbody-260.png, id=1093, 718.685pt x 718.685pt>
+File: nbody-260.png Graphic file (type png)
+<use nbody-260.png>
+Package pdftex.def Info: nbody-260.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-260.png> <a0,fr260>
+<nbody-261.png, id=1097, 718.685pt x 718.685pt>
+File: nbody-261.png Graphic file (type png)
+<use nbody-261.png>
+Package pdftex.def Info: nbody-261.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-261.png>
+<a0,fr261>
+<nbody-262.png, id=1101, 718.685pt x 718.685pt>
+File: nbody-262.png Graphic file (type png)
+<use nbody-262.png>
+Package pdftex.def Info: nbody-262.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-262.png> <a0,fr262>
+<nbody-263.png, id=1105, 718.685pt x 718.685pt>
+File: nbody-263.png Graphic file (type png)
+<use nbody-263.png>
+Package pdftex.def Info: nbody-263.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-263.png> <a0,fr263>
+<nbody-264.png, id=1109, 718.685pt x 718.685pt>
+File: nbody-264.png Graphic file (type png)
+<use nbody-264.png>
+Package pdftex.def Info: nbody-264.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-264.png> <a0,fr264>
+<nbody-265.png, id=1113, 718.685pt x 718.685pt>
+File: nbody-265.png Graphic file (type png)
+<use nbody-265.png>
+Package pdftex.def Info: nbody-265.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-265.png> <a0,fr265>
+<nbody-266.png, id=1117, 718.685pt x 718.685pt>
+File: nbody-266.png Graphic file (type png)
+<use nbody-266.png>
+Package pdftex.def Info: nbody-266.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-266.png> <a0,fr266>
+<nbody-267.png, id=1121, 718.685pt x 718.685pt>
+File: nbody-267.png Graphic file (type png)
+<use nbody-267.png>
+Package pdftex.def Info: nbody-267.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-267.png> <a0,fr267>
+<nbody-268.png, id=1125, 718.685pt x 718.685pt>
+File: nbody-268.png Graphic file (type png)
+<use nbody-268.png>
+Package pdftex.def Info: nbody-268.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-268.png> <a0,fr268>
+<nbody-269.png, id=1129, 718.685pt x 718.685pt>
+File: nbody-269.png Graphic file (type png)
+<use nbody-269.png>
+Package pdftex.def Info: nbody-269.png  used on input line 67.
+(pdftex.def)             Requested size: 718.68324pt x 718.68324pt.
+ <./nbody-269.png>
+<a0,fr269>
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 67--67
 [][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 69.
+(Font)              <9> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 69.
+(Font)              <5> on input line 67.
 
-Package microtype Warning: tracking amount list `apresentacao.tex/69' will
+Overfull \vbox (11.18134pt too high) detected at line 67
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/67' will
 (microtype)                override list `apresentacao.tex/55' for 
-(microtype)                font `OT1////' on input line 69.
+(microtype)                font `OT1////' on input line 67.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1307,35 +3005,36 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 -texmfdist/fonts/enc/dvips/base/8r.enc}
 
 {/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
-exmfdist/fonts/enc/dvips/lm/lm-ts1.enc}{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8
-k084-texlive-combined-full-2025-final-texmfdist/fonts/enc/dvips/lm/lm-mathit.en
-c}{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final
--texmfdist/fonts/enc/dvips/lm/lm-rm.enc}{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl
-8k084-texlive-combined-full-2025-final-texmfdist/fonts/enc/dvips/lm/lm-mathsy.e
-nc}]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 72--72
+exmfdist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 69--69
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/72' will
+Package microtype Warning: tracking amount list `apresentacao.tex/69' will
+(microtype)                override list `apresentacao.tex/67' for 
+(microtype)                font `OT1////' on input line 69.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+83.
+
+(/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 83--83
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/83' will
 (microtype)                override list `apresentacao.tex/69' for 
-(microtype)                font `OT1////' on input line 72.
-
-<placa_mae.png, id=52, 464.73625pt x 273.02pt>
-File: placa_mae.png Graphic file (type png)
-<use placa_mae.png>
-Package pdftex.def Info: placa_mae.png  used on input line 89.
-(pdftex.def)             Requested size: 199.1693pt x 117.0047pt.
-
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 89--89
-[][] 
- []
-
-
-Package microtype Warning: tracking amount list `apresentacao.tex/89' will
-(microtype)                override list `apresentacao.tex/72' for 
-(microtype)                font `OT1////' on input line 89.
+(microtype)                font `OT1////' on input line 83.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1344,34 +3043,34 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [3
 
- <./placa_mae.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 93--93
+{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-t
+exmfdist/fonts/enc/dvips/lm/lm-ts1.enc}{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8
+k084-texlive-combined-full-2025-final-texmfdist/fonts/enc/dvips/lm/lm-mathit.en
+c}{/nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final
+-texmfdist/fonts/enc/dvips/lm/lm-rm.enc}]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/93' will
-(microtype)                override list `apresentacao.tex/89' for 
-(microtype)                font `OT1////' on input line 93.
+Package microtype Warning: tracking amount list `apresentacao.tex/85' will
+(microtype)                override list `apresentacao.tex/83' for 
+(microtype)                font `OT1////' on input line 85.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 114.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 114.
-<bash_run.png, id=59, 627.34375pt x 316.18124pt>
-File: bash_run.png Graphic file (type png)
-<use bash_run.png>
-Package pdftex.def Info: bash_run.png  used on input line 114.
-(pdftex.def)             Requested size: 199.1693pt x 100.37918pt.
+<placa_mae.png, id=1431, 464.73625pt x 273.02pt>
+File: placa_mae.png Graphic file (type png)
+<use placa_mae.png>
+Package pdftex.def Info: placa_mae.png  used on input line 102.
+(pdftex.def)             Requested size: 199.1693pt x 117.0047pt.
 
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 114--114
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 102--102
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/114' will
-(microtype)                override list `apresentacao.tex/93' for 
-(microtype)                font `OT1////' on input line 114.
+Package microtype Warning: tracking amount list `apresentacao.tex/102' will
+(microtype)                override list `apresentacao.tex/85' for 
+(microtype)                font `OT1////' on input line 102.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1380,25 +3079,34 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [4
 
- <./bash_run.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 116--116
+ <./placa_mae.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/116' will
-(microtype)                override list `apresentacao.tex/114' for 
-(microtype)                font `OT1////' on input line 116.
+Package microtype Warning: tracking amount list `apresentacao.tex/106' will
+(microtype)                override list `apresentacao.tex/102' for 
+(microtype)                font `OT1////' on input line 106.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 127.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 127.
+<bash_run.png, id=1439, 627.34375pt x 316.18124pt>
+File: bash_run.png Graphic file (type png)
+<use bash_run.png>
+Package pdftex.def Info: bash_run.png  used on input line 127.
+(pdftex.def)             Requested size: 199.1693pt x 100.37918pt.
 
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 156--156
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 127--127
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/156' will
-(microtype)                override list `apresentacao.tex/116' for 
-(microtype)                font `OT1////' on input line 156.
+Package microtype Warning: tracking amount list `apresentacao.tex/127' will
+(microtype)                override list `apresentacao.tex/106' for 
+(microtype)                font `OT1////' on input line 127.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1407,39 +3115,25 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [5
 
-]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 160--160
+ <./bash_run.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 129--129
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/160' will
-(microtype)                override list `apresentacao.tex/156' for 
-(microtype)                font `OT1////' on input line 160.
+Package microtype Warning: tracking amount list `apresentacao.tex/129' will
+(microtype)                override list `apresentacao.tex/127' for 
+(microtype)                font `OT1////' on input line 129.
 
-<chen.png, id=72, 632.3625pt x 513.92pt>
-File: chen.png Graphic file (type png)
-<use chen.png>
-Package pdftex.def Info: chen.png  used on input line 174.
-(pdftex.def)             Requested size: 199.1693pt x 161.86212pt.
-<serial_time.png, id=73, 462.528pt x 346.896pt>
-File: serial_time.png Graphic file (type png)
-<use serial_time.png>
-Package pdftex.def Info: serial_time.png  used on input line 174.
-(pdftex.def)             Requested size: 199.1693pt x 149.37938pt.
 
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 174--174
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 169--169
 [][] 
  []
 
 
-Overfull \vbox (10.2191pt too high) detected at line 174
- []
-
-
-Package microtype Warning: tracking amount list `apresentacao.tex/174' will
-(microtype)                override list `apresentacao.tex/160' for 
-(microtype)                font `OT1////' on input line 174.
+Package microtype Warning: tracking amount list `apresentacao.tex/169' will
+(microtype)                override list `apresentacao.tex/129' for 
+(microtype)                font `OT1////' on input line 169.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1448,34 +3142,39 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [6
 
- <./chen.png> <./serial_time.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 176--176
+]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 173--173
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/176' will
-(microtype)                override list `apresentacao.tex/174' for 
-(microtype)                font `OT1////' on input line 176.
+Package microtype Warning: tracking amount list `apresentacao.tex/173' will
+(microtype)                override list `apresentacao.tex/169' for 
+(microtype)                font `OT1////' on input line 173.
 
-<threads_time.png, id=81, 462.528pt x 346.896pt>
-File: threads_time.png Graphic file (type png)
-<use threads_time.png>
-Package pdftex.def Info: threads_time.png  used on input line 181.
-(pdftex.def)             Requested size: 275.0pt x 206.2601pt.
+<chen.png, id=1454, 632.3625pt x 513.92pt>
+File: chen.png Graphic file (type png)
+<use chen.png>
+Package pdftex.def Info: chen.png  used on input line 187.
+(pdftex.def)             Requested size: 199.1693pt x 161.86212pt.
+<serial_time.png, id=1455, 462.528pt x 346.896pt>
+File: serial_time.png Graphic file (type png)
+<use serial_time.png>
+Package pdftex.def Info: serial_time.png  used on input line 187.
+(pdftex.def)             Requested size: 199.1693pt x 149.37938pt.
 
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 181--181
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 187--187
 [][] 
  []
 
 
-Overfull \vbox (12.67265pt too high) detected at line 181
+Overfull \vbox (10.2191pt too high) detected at line 187
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/181' will
-(microtype)                override list `apresentacao.tex/176' for 
-(microtype)                font `OT1////' on input line 181.
+Package microtype Warning: tracking amount list `apresentacao.tex/187' will
+(microtype)                override list `apresentacao.tex/173' for 
+(microtype)                font `OT1////' on input line 187.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1484,39 +3183,34 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [7
 
- <./threads_time.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 183--183
+ <./chen.png> <./serial_time.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 189--189
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/183' will
-(microtype)                override list `apresentacao.tex/181' for 
-(microtype)                font `OT1////' on input line 183.
+Package microtype Warning: tracking amount list `apresentacao.tex/189' will
+(microtype)                override list `apresentacao.tex/187' for 
+(microtype)                font `OT1////' on input line 189.
 
-<threads_speedup.png, id=89, 1445.4pt x 722.7pt>
-File: threads_speedup.png Graphic file (type png)
-<use threads_speedup.png>
-Package pdftex.def Info: threads_speedup.png  used on input line 188.
-(pdftex.def)             Requested size: 400.0pt x 199.99474pt.
+<threads_time.png, id=1465, 462.528pt x 346.896pt>
+File: threads_time.png Graphic file (type png)
+<use threads_time.png>
+Package pdftex.def Info: threads_time.png  used on input line 194.
+(pdftex.def)             Requested size: 275.0pt x 206.2601pt.
 
-Overfull \hbox (1.6614pt too wide) in paragraph at lines 188--188
- [] 
- []
-
-
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 188--188
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 194--194
 [][] 
  []
 
 
-Overfull \vbox (20.0073pt too high) detected at line 188
+Overfull \vbox (12.67265pt too high) detected at line 194
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/188' will
-(microtype)                override list `apresentacao.tex/183' for 
-(microtype)                font `OT1////' on input line 188.
+Package microtype Warning: tracking amount list `apresentacao.tex/194' will
+(microtype)                override list `apresentacao.tex/189' for 
+(microtype)                font `OT1////' on input line 194.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1525,34 +3219,39 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [8
 
- <./threads_speedup.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 191--191
+ <./threads_time.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 196--196
 [][] 
- []
-
-
-Package microtype Warning: tracking amount list `apresentacao.tex/191' will
-(microtype)                override list `apresentacao.tex/188' for 
-(microtype)                font `OT1////' on input line 191.
-
-<heatmap_speedup.png, id=96, 462.528pt x 346.896pt>
-File: heatmap_speedup.png Graphic file (type png)
-<use heatmap_speedup.png>
-Package pdftex.def Info: heatmap_speedup.png  used on input line 196.
-(pdftex.def)             Requested size: 260.0pt x 195.00676pt.
-
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 196--196
-[][] 
- []
-
-
-Overfull \vbox (1.41931pt too high) detected at line 196
  []
 
 
 Package microtype Warning: tracking amount list `apresentacao.tex/196' will
-(microtype)                override list `apresentacao.tex/191' for 
+(microtype)                override list `apresentacao.tex/194' for 
 (microtype)                font `OT1////' on input line 196.
+
+<threads_speedup.png, id=1474, 1445.4pt x 722.7pt>
+File: threads_speedup.png Graphic file (type png)
+<use threads_speedup.png>
+Package pdftex.def Info: threads_speedup.png  used on input line 201.
+(pdftex.def)             Requested size: 400.0pt x 199.99474pt.
+
+Overfull \hbox (1.6614pt too wide) in paragraph at lines 201--201
+ [] 
+ []
+
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 201--201
+[][] 
+ []
+
+
+Overfull \vbox (20.0073pt too high) detected at line 201
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/201' will
+(microtype)                override list `apresentacao.tex/196' for 
+(microtype)                font `OT1////' on input line 201.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1561,25 +3260,34 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [9
 
- <./heatmap_speedup.png>]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 198--198
+ <./threads_speedup.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 204--204
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/198' will
-(microtype)                override list `apresentacao.tex/196' for 
-(microtype)                font `OT1////' on input line 198.
+Package microtype Warning: tracking amount list `apresentacao.tex/204' will
+(microtype)                override list `apresentacao.tex/201' for 
+(microtype)                font `OT1////' on input line 204.
 
+<heatmap_speedup.png, id=1482, 867.24pt x 722.7pt>
+File: heatmap_speedup.png Graphic file (type png)
+<use heatmap_speedup.png>
+Package pdftex.def Info: heatmap_speedup.png  used on input line 209.
+(pdftex.def)             Requested size: 260.0pt x 216.6683pt.
 
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 203--203
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 209--209
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/203' will
-(microtype)                override list `apresentacao.tex/198' for 
-(microtype)                font `OT1////' on input line 203.
+Overfull \vbox (23.08086pt too high) detected at line 209
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/209' will
+(microtype)                override list `apresentacao.tex/204' for 
+(microtype)                font `OT1////' on input line 209.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1588,35 +3296,35 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
 
 [10
 
-]
-Overfull \hbox (2.12503pt too wide) in paragraph at lines 209--209
+ <./heatmap_speedup.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 213--213
 [][] 
  []
 
 
-Package microtype Warning: tracking amount list `apresentacao.tex/209' will
-(microtype)                override list `apresentacao.tex/203' for 
-(microtype)                font `OT1////' on input line 209.
-
-<inf-logo-white.pdf, id=108, 702.625pt x 389.455pt>
-File: inf-logo-white.pdf Graphic file (type pdf)
-<use inf-logo-white.pdf>
-Package pdftex.def Info: inf-logo-white.pdf  used on input line 209.
-(pdftex.def)             Requested size: 91.04742pt x 50.46452pt.
-<EE.png, id=109, 2007.5pt x 2007.5pt>
-File: EE.png Graphic file (type png)
-<use EE.png>
-Package pdftex.def Info: EE.png  used on input line 209.
-(pdftex.def)             Requested size: 60.0pt x 59.97734pt.
-
-Overfull \hbox (164.42094pt too wide) in paragraph at lines 209--209
-[][] 
- []
-
-
-Package microtype Warning: tracking amount list `apresentacao.tex/209(1)' will
+Package microtype Warning: tracking amount list `apresentacao.tex/213' will
 (microtype)                override list `apresentacao.tex/209' for 
-(microtype)                font `OT1////' on input line 209.
+(microtype)                font `OT1////' on input line 213.
+
+<heatmap_speedup_legendado.png, id=1490, 867.24pt x 722.7pt>
+File: heatmap_speedup_legendado.png Graphic file (type png)
+<use heatmap_speedup_legendado.png>
+Package pdftex.def Info: heatmap_speedup_legendado.png  used on input line 218.
+
+(pdftex.def)             Requested size: 260.0pt x 216.6683pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 218--218
+[][] 
+ []
+
+
+Overfull \vbox (23.08086pt too high) detected at line 218
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/218' will
+(microtype)                override list `apresentacao.tex/213' for 
+(microtype)                font `OT1////' on input line 218.
 
 
 Overfull \hbox (2.12503pt too wide) has occurred while \output is active
@@ -1624,6 +3332,443 @@ Overfull \hbox (2.12503pt too wide) has occurred while \output is active
  []
 
 [11
+
+ <./heatmap_speedup_legendado.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 220--220
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/220' will
+(microtype)                override list `apresentacao.tex/218' for 
+(microtype)                font `OT1////' on input line 220.
+
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 228--228
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/228' will
+(microtype)                override list `apresentacao.tex/220' for 
+(microtype)                font `OT1////' on input line 228.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[12
+
+]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 230--230
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/230' will
+(microtype)                override list `apresentacao.tex/228' for 
+(microtype)                font `OT1////' on input line 230.
+
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 236--236
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/236' will
+(microtype)                override list `apresentacao.tex/230' for 
+(microtype)                font `OT1////' on input line 236.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[13
+
+]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 238--238
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/238' will
+(microtype)                override list `apresentacao.tex/236' for 
+(microtype)                font `OT1////' on input line 238.
+
+<hpcperf_20t.png, id=1511, 1021.56656pt x 179.16937pt>
+File: hpcperf_20t.png Graphic file (type png)
+<use hpcperf_20t.png>
+Package pdftex.def Info: hpcperf_20t.png  used on input line 243.
+(pdftex.def)             Requested size: 398.3386pt x 69.86209pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 243--243
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/243' will
+(microtype)                override list `apresentacao.tex/238' for 
+(microtype)                font `OT1////' on input line 243.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[14
+
+ <./hpcperf_20t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 245--245
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/245' will
+(microtype)                override list `apresentacao.tex/243' for 
+(microtype)                font `OT1////' on input line 245.
+
+<hpcperf_21t.png, id=1519, 1029.8475pt x 197.98969pt>
+File: hpcperf_21t.png Graphic file (type png)
+<use hpcperf_21t.png>
+Package pdftex.def Info: hpcperf_21t.png  used on input line 250.
+(pdftex.def)             Requested size: 398.3386pt x 76.58124pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 250--250
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/250' will
+(microtype)                override list `apresentacao.tex/245' for 
+(microtype)                font `OT1////' on input line 250.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[15
+
+ <./hpcperf_21t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 252--252
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/252' will
+(microtype)                override list `apresentacao.tex/250' for 
+(microtype)                font `OT1////' on input line 252.
+
+<hpcperf_5t.png, id=1527, 911.65594pt x 213.79875pt>
+File: hpcperf_5t.png Graphic file (type png)
+<use hpcperf_5t.png>
+Package pdftex.def Info: hpcperf_5t.png  used on input line 257.
+(pdftex.def)             Requested size: 398.3386pt x 93.41927pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 257--257
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/257' will
+(microtype)                override list `apresentacao.tex/252' for 
+(microtype)                font `OT1////' on input line 257.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[16
+
+ <./hpcperf_5t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 259--259
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/259' will
+(microtype)                override list `apresentacao.tex/257' for 
+(microtype)                font `OT1////' on input line 259.
+
+<offload_20t.png, id=1535, 1397.97281pt x 475.7775pt>
+File: offload_20t.png Graphic file (type png)
+<use offload_20t.png>
+Package pdftex.def Info: offload_20t.png  used on input line 264.
+(pdftex.def)             Requested size: 398.3386pt x 135.56169pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 264--264
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/264' will
+(microtype)                override list `apresentacao.tex/259' for 
+(microtype)                font `OT1////' on input line 264.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[17
+
+ <./offload_20t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 266--266
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/266' will
+(microtype)                override list `apresentacao.tex/264' for 
+(microtype)                font `OT1////' on input line 266.
+
+<offload_21t.png, id=1543, 1243.64626pt x 566.115pt>
+File: offload_21t.png Graphic file (type png)
+<use offload_21t.png>
+Package pdftex.def Info: offload_21t.png  used on input line 271.
+(pdftex.def)             Requested size: 398.3386pt x 181.32462pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 271--271
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/271' will
+(microtype)                override list `apresentacao.tex/266' for 
+(microtype)                font `OT1////' on input line 271.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[18
+
+ <./offload_21t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 273--273
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/273' will
+(microtype)                override list `apresentacao.tex/271' for 
+(microtype)                font `OT1////' on input line 273.
+
+<offload_5t.png, id=1551, 1396.4672pt x 201.75375pt>
+File: offload_5t.png Graphic file (type png)
+<use offload_5t.png>
+Package pdftex.def Info: offload_5t.png  used on input line 278.
+(pdftex.def)             Requested size: 398.3386pt x 57.54967pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 278--278
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/278' will
+(microtype)                override list `apresentacao.tex/273' for 
+(microtype)                font `OT1////' on input line 278.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[19
+
+ <./offload_5t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 280--280
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/280' will
+(microtype)                override list `apresentacao.tex/278' for 
+(microtype)                font `OT1////' on input line 280.
+
+<events_20t.png, id=1560, 797.98125pt x 325.96782pt>
+File: events_20t.png Graphic file (type png)
+<use events_20t.png>
+Package pdftex.def Info: events_20t.png  used on input line 285.
+(pdftex.def)             Requested size: 398.3386pt x 162.7149pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 285--285
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/285' will
+(microtype)                override list `apresentacao.tex/280' for 
+(microtype)                font `OT1////' on input line 285.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[20
+
+ <./events_20t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 287--287
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/287' will
+(microtype)                override list `apresentacao.tex/285' for 
+(microtype)                font `OT1////' on input line 287.
+
+<events_21t.png, id=1568, 807.015pt x 333.49594pt>
+File: events_21t.png Graphic file (type png)
+<use events_21t.png>
+Package pdftex.def Info: events_21t.png  used on input line 292.
+(pdftex.def)             Requested size: 398.3386pt x 164.61029pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 292--292
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/292' will
+(microtype)                override list `apresentacao.tex/287' for 
+(microtype)                font `OT1////' on input line 292.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[21
+
+ <./events_21t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 294--294
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/294' will
+(microtype)                override list `apresentacao.tex/292' for 
+(microtype)                font `OT1////' on input line 294.
+
+<events_5t.png, id=1576, 803.25093pt x 399.74344pt>
+File: events_5t.png Graphic file (type png)
+<use events_5t.png>
+Package pdftex.def Info: events_5t.png  used on input line 299.
+(pdftex.def)             Requested size: 398.3386pt x 198.24263pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 299--299
+[][] 
+ []
+
+
+Overfull \vbox (4.65518pt too high) detected at line 299
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/299' will
+(microtype)                override list `apresentacao.tex/294' for 
+(microtype)                font `OT1////' on input line 299.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[22
+
+ <./events_5t.png>]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/301' will
+(microtype)                override list `apresentacao.tex/299' for 
+(microtype)                font `OT1////' on input line 301.
+
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 312--312
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/312' will
+(microtype)                override list `apresentacao.tex/301' for 
+(microtype)                font `OT1////' on input line 312.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[23
+
+]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 316--316
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/316' will
+(microtype)                override list `apresentacao.tex/312' for 
+(microtype)                font `OT1////' on input line 316.
+
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 322--322
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/322' will
+(microtype)                override list `apresentacao.tex/316' for 
+(microtype)                font `OT1////' on input line 322.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[24
+
+]
+Overfull \hbox (2.12503pt too wide) in paragraph at lines 328--328
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/328' will
+(microtype)                override list `apresentacao.tex/322' for 
+(microtype)                font `OT1////' on input line 328.
+
+<inf-logo-white.pdf, id=1596, 702.625pt x 389.455pt>
+File: inf-logo-white.pdf Graphic file (type pdf)
+<use inf-logo-white.pdf>
+Package pdftex.def Info: inf-logo-white.pdf  used on input line 328.
+(pdftex.def)             Requested size: 91.04742pt x 50.46452pt.
+<EE.png, id=1597, 2007.5pt x 2007.5pt>
+File: EE.png Graphic file (type png)
+<use EE.png>
+Package pdftex.def Info: EE.png  used on input line 328.
+(pdftex.def)             Requested size: 60.0pt x 59.97734pt.
+
+Overfull \hbox (164.42094pt too wide) in paragraph at lines 328--328
+[][] 
+ []
+
+
+Package microtype Warning: tracking amount list `apresentacao.tex/328(1)' will
+(microtype)                override list `apresentacao.tex/328' for 
+(microtype)                font `OT1////' on input line 328.
+
+
+Overfull \hbox (2.12503pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[25
 
  <./inf-logo-white.pdf> <./EE.png>]
 \tf@nav=\write6
@@ -1641,16 +3786,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `apresentacao.out' has not changed.
-(rerunfilecheck)             Checksum: A8F274D43114C87B77C81D2168BDD620;274.
+(rerunfilecheck)             Checksum: C4DDE9B83A546845A11336AEC74C617E;535.
  ) 
 Here is how much of TeX's memory you used:
- 26493 strings out of 467533
- 528859 string characters out of 5392394
- 924215 words of memory out of 5000000
- 54660 multiletter control sequences out of 15000+600000
- 738903 words of font info for 182 fonts, out of 8000000 for 9000
+ 32043 strings out of 467533
+ 641370 string characters out of 5392394
+ 1031424 words of memory out of 5000000
+ 60120 multiletter control sequences out of 15000+600000
+ 739004 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,1009b,784s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,1009b,1665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final
 -texmfdist/fonts/type1/public/lm/lmbx10.pfb></nix/store/m6l26yivppamjf4a5dwn0vl
 pdsl8k084-texlive-combined-full-2025-final-texmfdist/fonts/type1/public/lm/lmmi
@@ -1667,10 +3812,10 @@ ic/lm/lmssbx10.pfb></nix/store/m6l26yivppamjf4a5dwn0vlpdsl8k084-texlive-combine
 d-full-2025-final-texmfdist/fonts/type1/public/lm/lmsy10.pfb></nix/store/m6l26y
 ivppamjf4a5dwn0vlpdsl8k084-texlive-combined-full-2025-final-texmfdist/fonts/typ
 e1/urw/helvetic/uhvb8a.pfb>
-Output written on apresentacao.pdf (11 pages, 1050835 bytes).
+Output written on apresentacao.pdf (25 pages, 3460980 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 65146 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1683 PDF objects out of 1728 (max. 8388607)
+ 765 compressed objects within 8 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 68206 words of extra memory for PDF output out of 74296 (max. 10000000)
 

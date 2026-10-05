@@ -4,6 +4,7 @@
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{animate}
 
 \newcommand{\inframe}[2]{
     \begin{frame}{#1}
@@ -41,7 +42,6 @@
 \subtitle{INF01008 - Programação Paralela}
 
 \date{Setembro de 2026}
-
 % Author information
 \author{Lucas Timm}
 \institute{Instituto de Informática | Escola de Engenharia --- UFRGS }
@@ -53,10 +53,24 @@
 \section{Detalhes}
 
 \frame{
+  \frametitle{Apresentação}
+    \intwocols{
+      \begin{itemize}
+	\item Aluno da Engenharia Civil
+	\item Cursando Extracurricular, não realizei a cadeira de arquitetura ou sistemas previamente 
+	\item Já havia realizado este projeto anteriormente, com Raylib
+	\item Leitura prévia de livro sobre OpenMP
+      \end{itemize}
+    }{
+      \animategraphics[loop,width=\linewidth]{30}{nbody-}{0}{269}
+    }
+}
+
+\frame{
     \frametitle{Introdução}
     \intwocols{
       \begin{enumerate}
-	\item Duas famílias de algoritmo: Força Bruta e Barnes-Hutt (Chen, 2021).
+	\item Duas famílias de algoritmo: Força Bruta e Barnes-Hutt [Chen, 2021].
 	\item Força bruta : O(n²)
 	\item Barnes-Hutt : O(nlog(n))
 	\item Força bruta mostra mais potencial para o estudo de  paralelização.
@@ -67,7 +81,6 @@
       $$S = S_0 + V_0 t + \frac{at^2}{2}$$
     }
 }
-
 
 \frame{
   \frametitle{Ambiente}
@@ -194,6 +207,111 @@
       	  \includegraphics[width=260pt]{heatmap_speedup.png}
       \end{figure}
 }
+
+\section{Análise De Resultados}
+
+\frame{
+      \frametitle{Mapa de Calor}
+      \begin{figure}
+      	  \includegraphics[width=260pt]{heatmap_speedup_legendado.png}
+      \end{figure}
+}
+
+\frame{
+    \frametitle{Hipóteses Iniciais}
+    \begin{enumerate}
+      \item Gargalo de 20-21 threads ocorrido por acessos não uniformes na memória.
+      \item Latência por acessar a memória próxima do outro processador (NUMA).
+      \item Ao aumentar o número de threads e problema, deixa de ser tanto problema.
+      \item Mais threads trabalhando trazem mais dados pra próximo do segundo processador.
+    \end{enumerate}
+}
+
+\frame{
+    \frametitle{Intel VTune}
+    \begin{itemize}
+      \item Utilizei o Intel VTune Profile em hpc-performance para testar as hipóteses.
+      \item Retirei 3 casos do mapa de calor : 700 corpos e 5 threads, 4000 corpos e 20 threads, 4000 corpos e 21 threads
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Performance HPC}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{hpcperf_20t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Performance HPC}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{hpcperf_21t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Performance HPC}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{hpcperf_5t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Offload}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{offload_20t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Offload}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{offload_21t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Offload}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{offload_5t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Eventos Hardware}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{events_20t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Eventos Hardware}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{events_21t.png}
+    \end{figure}
+}
+
+\frame{
+    \frametitle{Eventos Hardware}
+    \begin{figure}
+      	  \includegraphics[width=\linewidth]{events_5t.png}
+    \end{figure}
+}
+
+\frame{
+  \frametitle{Discussão dos Resultados}
+  \begin{itemize}
+    \item A noção que passar para 21 threads traz latência é colaborada pelos eventos.
+    \item CPI maior na run de 21 threads demonstra que há mais latência comparado com 20.
+    \item Entretanto, a presença de mais números do evento CPU UNHALTED ONE THREAD ACTIVE com 21 threads, traz o hyperthreading como suspeito.
+    \item A run de 21 threads também fica bastante tempo parada em uma call do OMP (libgomp), comparada com a de 20 threads.
+    \item Evidencia que possa ser não o acesso à memória, mas talvez um núcleo em hyperthreading, atrasando todos os outros núcleos na chamada de barreira.
+    \item Um thread lerdo, atrasando os outros.
+    \item Explicaria o Speedup retornar a subir quando aumentamos o número de threads, maisdelas estão em hyperthreading, mais threads fazendo trabalho similar, diminuindo o peso da barreira.
+  \end{itemize}
+}
+
+\section{Finalização}
 
 \frame{
   \frametitle{Referências Bibliográficas}
